@@ -1,0 +1,17 @@
+.content_api {
+    width: 50%;
+    margin: 0 auto;
+}
+
+  .present {
+    text-align: right;
+  }
+  @media screen and (max-width: 768px) {
+    .content_api {
+      width: 100%;
+    }
+
+  .present {
+    text-align: left;
+  }
+  }
