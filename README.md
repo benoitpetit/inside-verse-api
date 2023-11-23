@@ -9,6 +9,7 @@ Step into the immersive world of the "Inside Job" series with the "InsideVerseAP
 ```
   GET    /quotes
   GET    /quotes/1
+  GET    /quotes/random
   GET    /quotes?_limit=20
 
   GET    /characters
