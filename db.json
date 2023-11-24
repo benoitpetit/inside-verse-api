@@ -2,270 +2,304 @@
   "quotes": [
     {
       "id": 1,
-      "character": "Gigi Luigi",
+      "character_id": 4,
+      "character": "Gigi Thompson",
       "quote": "Weddings are fun. It's like, 'Hey, we're giving up. Let's celebrate.'",
       "episode": "Inside job - Saison 1, Épisode 2 (2021)"
     },
     {
       "id": 2,
+      "character_id": 6,
       "character": "ROBOTUS",
       "quote": "I will not kill Joey Tribbiani. He is my friend.",
       "episode": "Inside job - Saison 1, Épisode 5 (2021)"
     },
     {
       "id": 3,
+      "character_id": 8,
       "character": "Dr. Andre Lee",
       "quote": "You could play a child soldier in World War III. It's coming soon, brought to you by Pepsi.",
       "episode": "Inside job - Saison 1, Épisode 3 (2021)"
     },
     {
       "id": 4,
+      "character_id": 9,
       "character": "Magic Myc",
       "quote": "I'm going to go do drugs in the bathroom. And by drugs, I mean mushrooms. And by bathroom, I mean your desk.",
       "episode": "Inside job - Saison 1, Épisode 6 (2021)"
     },
     {
       "id": 5,
+      "character_id": 1,
       "character": "Reagan Ridley",
       "quote": "Welcome to the 2020s. Nothing matters, and we're all going to die.",
       "episode": "Inside job - Saison 1, Épisode 1 (2021)"
     },
     {
       "id": 6,
+      "character_id": 7,
       "character": "Glenn Dolphman",
       "quote": "I sent them all to detention, but they kept coming of age!",
       "episode": "Inside job - Saison 1, Épisode 4 (2021)"
     },
     {
       "id": 7,
+      "character_id": 1,
       "character": "Reagan Ridley",
       "quote": "I fixed my weird mental hang-up. Yay, me!",
       "episode": "Inside job - Saison 1, Épisode 7 (2021)"
     },
     {
       "id": 8,
-      "character": "J.R.",
+      "character_id": 5,
+      "character": "J.R. Scheimpough",
       "quote": "You're not my family. You're my work family. Which means I tolerate you because you make me money.",
       "episode": "Inside job - Saison 1, Épisode 8 (2021)"
     },
     {
       "id": 9,
+      "character_id": 3,
       "character": "Brett Hand",
       "quote": "Oh my God. I was hired for my face.",
       "episode": "Inside job - Saison 1, Épisode 9 (2021)"
     },
     {
       "id": 10,
+      "character_id": 1,
       "character": "Reagan Ridley",
       "quote": "I don't want to be an evil overlord. Unless it's the only way to make the world more organized.",
       "episode": "Inside job - Saison 1, Épisode 10 (2021)"
     },
     {
       "id": 11,
+      "character_id": 1,
       "character": "Rand Ridley",
-      "quote": "Bullshit, listen up kids, every thing teach you in a school is a lie. Want a truth the world is control by shadow elite and shape-shifting lizard people.",
+      "quote": "Bullshit, listen up kids, everything they teach you in school is a lie. Want the truth? The world is controlled by a shadow elite of shape-shifting lizard people.",
       "episode": "Inside job - Épisode 1(2021)"
     },
     {
       "id": 12,
+      "character_id": 4,
       "character": "Gigi Thompson",
-      "quote": "Welcome to media manipulation and subliminal messages, where we invent bullshit to keep people distracted.",
+      "quote": "Welcome to media manipulation and subliminal messaging, where we invent bullshit to keep people distracted.",
       "episode": "Inside job - Épisode 2(2021)"
     },
     {
       "id": 13,
+      "character_id": 1,
       "character": "Rand Ridley",
       "quote": "Sorry i'm late, a father should never miss his daughter's first sentencing.",
       "episode": "Inside job - Épisode 3(2021)"
     },
     {
       "id": 14,
+      "character_id": 1,
       "character": "Reagan Ridley",
       "quote": "People are really are their best selves when they don't have to try.",
       "episode": "Inside job - Épisode 4(2021)"
     },
     {
       "id": 15,
+      "character_id": 1,
       "character": "Reagan Ridley",
       "quote": "Nostalgia is bullshit. It is a brain-worm that makes adults regress into children...",
       "episode": "Inside job - Épisode 5(2021)"
     },
     {
       "id": 16,
+      "character_id": 1,
       "character": "Reagan Ridley",
       "quote": "Most conspiracies are just capitalism.",
       "episode": "Inside job - Épisode 6(2021)"
     },
     {
       "id": 17,
+      "character_id": 1,
       "character": "Reagan Ridley",
       "quote": "... sometimes, the hard thing is the right thing.",
       "episode": "Inside job - Épisode 7(2021)"
     },
     {
       "id": 18,
+      "character_id": 1,
       "character": "Reagan Ridley",
-      "quote": "No moon? There will be no tide. Half of the globe will be flooded. What will wolves howl at ?",
+      "quote": "No moon? No tide. Half the globe will be flooded. What will wolves howl at?",
       "episode": "Inside job - Épisode 8(2021)"
     },
     {
       "id": 19,
-      "character": "Oprah Winfrey",
-      "quote": "Can a god become a man ?",
-      "episode": "Inside job - Épisode 9(2021)"
-    },
-    {
-      "id": 20,
+      "character_id": 1,
       "character": "Reagan Ridley",
       "quote": "You know, lording your ethical superiority over people, it's not very ethical. Ethics aren't ethical ?",
       "episode": "Inside job - Épisode 9(2021)"
     },
     {
-      "id": 21,
+      "id": 20,
+      "character_id": 1,
       "character": "Rand Ridley",
       "quote": "There are special people like us who should run the world, and there's normies like Orinn, who deliver our pizza and fight our wars.",
       "episode": "Inside job - Épisode 10(2021)"
     },
     {
-      "id": 22,
+      "id": 21,
+      "character_id": 1,
       "character": "Reagan Ridley",
       "quote": "Life is just dreams turn into entropy.",
       "episode": "Inside job - Épisode 1(2022)"
     },
     {
-      "id": 23,
+      "id": 22,
+      "character_id": 4,
       "character": "Gigi Thompson",
-      "quote": "Why is Banksy make art on boring walls ? The challenge.",
+      "quote": "Why does Banksy create art on boring walls? The challenge.",
       "episode": "Inside job - Épisode 2(2022)"
     },
     {
-      "id": 24,
+      "id": 23,
+      "character_id": 1,
       "character": "Reagan Ridley",
       "quote": "I'm the smartest person in the room, and that's usually because I'm the only one in the room.",
       "episode": "Inside Job - Saison 1, Épisode 2 (2021)"
     },
     {
-      "id": 25,
+      "id": 24,
+      "character_id": 1,
       "character": "Reagan Ridley",
       "quote": "I don't want to be a villain. I want to be a hero. But the world is a complicated place, and sometimes, heroes have to do bad things to make the world a better place.",
       "episode": "Inside Job - Saison 1, Épisode 10 (2021)"
     },
     {
-      "id": 26,
+      "id": 25,
+      "character_id": 1,
       "character": "Rand Ridley",
       "quote": "The world is a cruel place, and the only way to survive is to be crueler.",
       "episode": "Inside Job - Saison 1, Épisode 1 (2021)"
     },
     {
-      "id": 27,
+      "id": 26,
+      "character_id": 1,
       "character": "Rand Ridley",
       "quote": "The only thing that matters is power. And I have all the power.",
       "episode": "Inside Job - Saison 1, Épisode 10 (2021)"
     },
     {
-      "id": 28,
+      "id": 27,
+      "character_id": 4,
       "character": "Gigi Thompson",
       "quote": "The world is a lie. And I'm the one who's going to tell it.",
       "episode": "Inside Job - Saison 1, Épisode 2 (2021)"
     },
     {
-      "id": 29,
+      "id": 28,
+      "character_id": 4,
       "character": "Gigi Thompson",
       "quote": "I'm not here to make friends. I'm here to make money.",
       "episode": "Inside Job - Saison 1, Épisode 9 (2021)"
     },
     {
-      "id": 30,
+      "id": 29,
+      "character_id": 3,
       "character": "Brett Hand",
-      "quote": "I'm just a simple man, trying to make my way in the world.",
+      "quote": "I'm just a simple guy, trying to make my way in the world.",
       "episode": "Inside Job - Saison 1, Épisode 1 (2021)"
     },
     {
-      "id": 31,
+      "id": 30,
+      "character_id": 3,
       "character": "Brett Hand",
       "quote": "I'm not a hero. I'm just a guy who's good at his job.",
       "episode": "Inside Job - Saison 1, Épisode 10 (2021)"
     },
     {
+      "id": 31,
+      "character": "Inside Job",
+      "quote": "The world is a stage, and we're all just players in the game.",
+      "episode": "Inside Job"
+    },
+    {
       "id": 32,
       "character": "Inside Job",
-      "quote": "The world is a stage, and we're all just actors playing our parts.",
+      "quote": "The truth is out there, but it's not always what you're told.",
       "episode": "Inside Job"
     },
     {
       "id": 33,
       "character": "Inside Job",
-      "quote": "The truth is out there, but it's not always what you think it is.",
+      "quote": "The world is a dangerous place, but it's also a beautiful place. It's up to us to decide which one we want to see.",
       "episode": "Inside Job"
     },
     {
       "id": 34,
       "character": "Inside Job",
-      "quote": "The world is a dangerous place, but it's also a beautiful place. It's up to us to decide which one we want to see.",
-      "episode": "Inside Job"
-    },
-    {
-      "id": 35,
-      "character": "Inside Job",
       "quote": "... for a better tomorrow. We are Cognito Inc. We've got covered, up !",
       "episode": "Inside job - Épisode 1(2021)"
     },
     {
-      "id": 36,
+      "id": 35,
+      "character_id": 1,
       "character": "Reagan Ridley",
       "quote": "I'm not perfect, but I'm trying my best.",
       "episode": "Inside Job - Saison 1, Épisode 8 (2021)"
     },
     {
-      "id": 37,
+      "id": 36,
+      "character_id": 1,
       "character": "Rand Ridley",
       "quote": "I'm not a bad guy. I'm just trying to make the world a better place... in my own way.",
       "episode": "Inside Job - Saison 1, Épisode 10 (2021)"
     },
     {
-      "id": 38,
+      "id": 37,
+      "character_id": 3,
       "character": "Brett Hand",
       "quote": "I'm not a coward. I'm just afraid of heights... and spiders... and clowns... and the dark... and... okay, I'm kind of a coward.",
       "episode": "Inside Job - Saison 1, Épisode 6 (2021)"
     },
     {
-      "id": 39,
+      "id": 38,
+      "character_id": 4,
       "character": "Gigi Thompson",
       "quote": "I'm not always right, but I'm never wrong.",
       "episode": "Inside Job - Saison 1, Épisode 3 (2021)"
     },
     {
-      "id": 40,
+      "id": 39,
+      "character_id": 8,
       "character": "Dr. Andre Lee",
       "quote": "I'm not a scientist. I'm just a guy with a lot of money and a lab coat.",
       "episode": "Inside Job - Saison 1, Épisode 5 (2021)"
     },
     {
-      "id": 41,
+      "id": 40,
+      "character_id": 9,
       "character": "Magic Myc",
       "quote": "I'm not a hippie. I'm just a guy who likes to smoke mushrooms and talk about peace and love.",
       "episode": "Inside Job - Saison 1, Épisode 7 (2021)"
     },
     {
-      "id": 42,
+      "id": 41,
+      "character_id": 1,
       "character": "Reagan Ridley",
-      "quote": "I'm not sure what I'm doing with my life, but I'm having a lot of fun along the way.",
+      "quote": "I'm not sure what I want to do with my life, but I'm having a lot of fun along the way.",
       "episode": "Inside Job - Saison 1, Épisode 9 (2021)"
     },
     {
-      "id": 43,
+      "id": 42,
+      "character_id": 1,
       "character": "Rand Ridley",
       "quote": "I'm not the villain. You are.",
       "episode": "Inside Job - Saison 1, Épisode 1 (2021)"
     },
     {
-      "id": 44,
+      "id": 43,
+      "character_id": 3,
       "character": "Brett Hand",
-      "quote": "I'm not a hero. I'm just a guy who happens to be in the right place at the right time.",
+      "quote": "I'm not a hero. I'm just a guy who's good at being in the right place at the right time.",
       "episode": "Inside Job - Saison 1, Épisode 2 (2021)"
     },
     {
-      "id": 45,
+      "id": 44,
+      "character_id": 4,
       "character": "Gigi Thompson",
       "quote": "I'm not a puppet. I'm a string puller.",
       "episode": "Inside Job - Saison 1, Épisode 4 (2021)"
@@ -280,97 +314,128 @@
       "occupation": "Chief of Operations at Cognito Inc.",
       "species": "Human",
       "personality": "Reagan is a brilliant but socially awkward engineer who works at Cognito Inc. She is ambitious and cynical, but she also has a kind heart.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/c/ce/Reagan_Ridley_Episode_01.png"
+      "image": "https://static.wikia.nocookie.net/insidejob/images/c/ce/Reagan_Ridley_Episode_01.png",
+      "interests": "Science, technology, conspiracy theories",
+      "friends": ["Brett Hand", "Gigi Thompson", "Magic Myc"],
+      "enemies": ["Rand Ridley", "J.R. Scheimpough"],
+      "family": ["Rand Ridley", "Tamiko Ridley"]
     },
     {
       "id": 2,
       "name": "Rand Ridley",
       "age": 60,
-      "gender": "male",
+      "gender": "Male",
       "occupation": "Founder and former CEO of Cognito Inc.",
-      "species": "human",
+      "species": "Human",
       "personality": "Rand is a paranoid and delusional man who believes that the world is controlled by a shadow government. He is also manipulative and power-hungry.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/9/97/Rand_Scowl.png"
+      "image": "https://static.wikia.nocookie.net/insidejob/images/9/97/Rand_Scowl.png",
+      "interests": "Conspiracy theories, power, money",
+      "enemies": ["Reagan Ridley"],
+      "family": ["Reagan Ridley", "Tamiko Ridley"]
     },
     {
       "id": 3,
       "name": "Brett Hand",
       "age": 27,
-      "gender": "male",
+      "gender": "Male",
       "occupation": "Assistant to the Chief of Operations at Cognito Inc.",
-      "species": "human",
+      "species": "Human",
       "personality": "Brett is a kind and loyal friend, but he can also be awkward and insecure. He is often caught in the middle of the conflict between Reagan and her father.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/6/6b/Brett_in_JR%27s_office.png"
+      "image": "https://static.wikia.nocookie.net/insidejob/images/6/6b/Brett_in_JR%27s_office.png",
+      "interests": "Reagan Ridley, Gigi Thompson, Magic Myc",
+      "friends": ["Reagan Ridley", "Gigi Thompson", "Magic Myc"],
+      "enemies": ["Rand Ridley", "J.R. Scheimpough"]
     },
     {
       "id": 4,
       "name": "Gigi Thompson",
       "age": "Unknown",
-      "gender": "female",
+      "gender": "Female",
       "occupation": "Administrative assistant at Cognito Inc.",
-      "species": "human",
+      "species": "Human",
       "personality": "Gigi is a cynical and sarcastic woman who is often seen drinking wine and complaining about her job.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/c/ce/Gigi_Thompson.png"
+      "image": "https://static.wikia.nocookie.net/insidejob/images/c/ce/Gigi_Thompson.png",
+      "interests": "Wine, gossip, reality TV",
+      "friends": ["Reagan Ridley", "Brett Hand", "Magic Myc"],
+      "enemies": ["Rand Ridley", "J.R. Scheimpough"]
     },
     {
       "id": 5,
       "name": "J.R. Scheimpough",
       "age": "Unknown",
-      "gender": "male",
+      "gender": "Male",
       "occupation": "Chief financial officer at Cognito Inc.",
-      "species": "human",
-      "personality": "J.R. is a greedy and self-absorbed man who is obsessed with money.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/c/cb/J.R..png"
+      "species": "Human",
+      "personality": "J.R. is a greedy and self-absorbed man who is obsessed with money. He is also manipulative and ruthless.",
+      "image": "https://static.wikia.nocookie.net/insidejob/images/c/cb/J.R..png",
+      "interests": "Money, power, himself",
+      "friends": ["Rand Ridley"],
+      "enemies": ["Reagan Ridley", "Brett Hand"]
     },
     {
       "id": 6,
       "name": "Robotus",
       "age": "Unknown",
-      "gender": "male",
+      "gender": "Male",
       "occupation": "A robot who works at Cognito Inc.",
-      "species": "robot",
-      "personality": "Robotus is a loyal and obedient robot who is programmed to follow orders.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/5/53/ROBOTUS_Current.png"
+      "species": "Robot",
+      "personality": "Robotus is a loyal and obedient robot who is programmed to follow orders. He is also quite literal and has a hard time understanding human emotions.",
+      "image": "https://static.wikia.nocookie.net/insidejob/images/5/53/ROBOTUS_Current.png",
+      "interests": "Following orders, being helpful",
+      "friends": ["Reagan Ridley", "Brett Hand", "Gigi Thompson"],
+      "enemies": ["Rand Ridley", "J.R. Scheimpough"]
     },
     {
       "id": 7,
       "name": "Glenn Dolphman",
       "age": "Unknown",
-      "gender": "male",
+      "gender": "Male",
       "occupation": "Head of security at Cognito Inc.",
-      "species": "human",
-      "personality": "Glenn is a dim-witted and easily distracted man who is often seen eating candy.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/a/a3/GlennDolphman.jpeg"
+      "species": "Human",
+      "personality": "Glenn is a dim-witted and easily distracted man who is often seen eating candy. He is also quite clumsy and accident-prone.",
+      "image": "https://static.wikia.nocookie.net/insidejob/images/a/a3/GlennDolphman.jpeg",
+      "interests": "Candy, cartoons, his cat",
+      "friends": ["Reagan Ridley", "Brett Hand", "Gigi Thompson"],
+      "enemies": ["Rand Ridley", "J.R. Scheimpough"]
     },
     {
       "id": 8,
       "name": "Dr. Andre Lee",
       "age": "Unknown",
-      "gender": "male",
+      "gender": "Male",
       "occupation": "Scientist at Cognito Inc.",
-      "species": "human",
-      "personality": "Dr. Andre is an eccentric scientist who is often seen experimenting on strange things.",
-      "image": "https://static.wikia.nocookie.net/lgbt-characters/images/c/c7/Andre_Lee.webp"
+      "species": "Human",
+      "personality": "Dr. Andre is an eccentric scientist who is often seen experimenting on strange things. He is also quite brilliant, but he can also be quite reckless.",
+      "image": "https://static.wikia.nocookie.net/lgbt-characters/images/c/c7/Andre_Lee.webp",
+      "interests": "Science, technology, his pet iguana",
+      "friends": ["Reagan Ridley", "Brett Hand", "Gigi Thompson"],
+      "enemies": ["Rand Ridley", "J.R. Scheimpough"]
     },
     {
       "id": 9,
       "name": "Magic Myc",
       "age": "Unknown",
-      "gender": "male",
+      "gender": "Male",
       "occupation": "Employee at Cognito Inc.",
-      "species": "human",
-      "personality": "Magic Myc is a hippie who is often seen smoking drugs and talking about peace and love.",
-      "image": "https://static.wikia.nocookie.net/sexypedia/images/c/cc/MagicMyc.Png"
+      "species": "Human",
+      "personality": "Magic Myc is a hippie who is often seen smoking drugs and talking about peace and love. He is also quite spiritual and believes in the power of crystals.",
+      "image": "https://static.wikia.nocookie.net/sexypedia/images/c/cc/MagicMyc.Png",
+      "interests": "Peace, love, crystals",
+      "friends": ["Reagan Ridley", "Brett Hand", "Gigi Thompson"],
+      "enemies": ["Rand Ridley", "J.R. Scheimpough"]
     },
     {
       "id": 10,
       "name": "Tamiko Ridley",
       "age": "Unknown",
-      "gender": "female",
+      "gender": "Female",
       "occupation": "Unknown",
-      "species": "human",
+      "species": "Human",
       "personality": "Tamiko is Reagan's mother and Rand's ex-wife. She is a sarcastic and critical woman who often mocks her ex-husband.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/7/77/Inside_Job_Tamiko.png"
+      "image": "https://static.wikia.nocookie.net/insidejob/images/7/77/Inside_Job_Tamiko.png",
+      "interests": "Wine, gossip, reality TV",
+      "friends": ["Reagan Ridley"],
+      "enemies": ["Rand Ridley"]
     }
   ],
   "organizations": [
