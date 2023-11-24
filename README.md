@@ -1,6 +1,6 @@
 # Inside Verse API
 
-API : https://www.inside-verse-api.com
+API : https://inside-verse-api.com
 
 ![Inside Verse API](/public/header.webp)
 
