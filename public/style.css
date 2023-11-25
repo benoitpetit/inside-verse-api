@@ -3,15 +3,29 @@
     margin: 0 auto;
 }
 
-  .present {
-    text-align: right;
+.present {
+  text-align: right;
+}
+
+.info-banner {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #134D63;
+  width: 100%;
+  padding: 0.3rem
+}
+
+.info-banner small {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .content_api {
+    width: 100%;
   }
-  @media screen and (max-width: 768px) {
-    .content_api {
-      width: 100%;
-    }
 
   .present {
     text-align: left;
   }
-  }
+}

@@ -440,36 +440,43 @@
   ],
   "organizations": [
     {
+      "id": 1,
       "name": "The Illuminati",
       "description": "A secret society that controls the world. They are the most powerful organization in the world, and they control everything from the government to the media.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/c/cc/Illuminati_Members.png"
     },
     {
+      "id": 2,
       "name": "The Shadow Council",
       "description": "A mysterious and ancient cabal of masked figures. They occasionally recruit new members from other secret organizations. Their overall agenda is unknown, but they are in favor of bull markets. In a cold war with Atlantis, allies of the Lizard People, owners of Cognito Inc.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/e/e3/ShadowBoard.png"
     },
     {
+      "id": 3,
       "name": "Cognito Inc.",
       "description": "Seems to be the operations arm of the Shadow Council. They report to the council and carry out their will, but their executives are given a fairly high degree of autonomy, allowing them to determine how to carry out the council's wishes and allowing them to pursue their own agenda to some extent. Also referred to as 'The Deep State'.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/b/b9/Cognito_Inc_Logo.png"
     },
     {
+      "id": 4,
       "name": "The Lizard People",
       "description": "A species of shape-shifting reptoids that have infiltrated the highest levels of human society. Allied with Cognito Inc., but it's unknown if they're aware of the existence of the Shadow Council. Their alliance is based on a promise to maintain global warming in exchange for funding.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/3/34/Reptoids.png"
     },
     {
+      "id": 5,
       "name": "The US Government",
       "description": "Heavily compromised by various secret societies, but no one society controls the whole thing. Cognito Inc. controls the executive branch only.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/c/cb/US_Government_seal.png"
     },
     {
+      "id": 6,
       "name": "The British Government",
       "description": "Likely compromised as well, given the connections between the royals and secret societies, and MI6's willingness to work with Cognito Inc.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/0/0c/British_Government_seal.png"
     },
     {
+      "id": 7,
       "name": "Atlantis",
       "description": "Seems to be in a state of cold war with the rest of the underworld. Neither Cognito Inc nor the Lizard People seem fond of them. For unknown reasons, NASA is willing to edit them out of photos of Earth.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/f/fb/AtlantisIsland.png"
