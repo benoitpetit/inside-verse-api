@@ -1,5 +1,7 @@
 # Inside Verse API
 
+help me here ❤️ : https://patreon.com/benoitpetit
+
 API : https://inside-verse-api.com
 
 ![Inside Verse API](/public/header.webp)
