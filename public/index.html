@@ -1,156 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Inside Verse API</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Immerse yourself in the immersive world of the 'Inside Job' series with the 'InsideVerseAPI'. Discover quotes, dialogue, characters, organizations and more." />
-    <meta name="keywords" content="Inside Verse API, Inside Job, quotes, dialogues, characters, organizations, saison, immersive, series, TV, entertainment" />
-    <meta name="author" content="benoitpetit.dev" />
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow" />
-    
-    <meta property="og:locale" content="en_EN" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Inside Verse API" />
-    <meta property="og:description" content="Step into the immersive world of the 'Inside Job' series with the 'InsideVerseAPI.'" />
-    <meta property="og:image" content="https://inside-verse-api.com/header.webp" />
-    <meta property="og:image:alt" content="Logo Inside Verse API" />
-    <meta name="twitter:card" content="summary" />
-    <meta property="twitter:title" content="Inside Verse API" />
-    <meta property="twitter:description" content="Step into the immersive world of the 'Inside Job' series with the 'InsideVerseAPI.'" />
-    <meta property="twitter:image" content="https://inside-verse-api.com/header.webp" />
-    <meta property="twitter:image:alt" content="Logo Inside Verse API" />
-    
-     <!-- Google tag (gtag.js) -->
-     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9CPQ54EENN"></script>
-     <script>
-       window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-       gtag('js', new Date());
- 
-       gtag('config', 'G-9CPQ54EENN');
-     </script>
-    
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
-    />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="content_api">
-      <header>
-        <div class="container-fluid">
-          <img
-            src="header.webp"
-            alt="Inside Verse API Header"
-            class="header-image"
-          />
-          <hr />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inside Verse API - Explore the Inside Job Universe</title>
+    <meta name="description" content="Access quotes, characters, and more from the Inside Job series with the Inside Verse API. Perfect for fans and developers alike.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const carousel = document.querySelector('.carousel');
+    const images = carousel.querySelectorAll('.carousel-image');
+    const prevButton = carousel.querySelector('.prev');
+    let currentIndex = 0;
+
+    function showImage(index) {
+        images.forEach((img, i) => {
+            img.classList.toggle('active', i === index);
+        });
+    }
+
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        showImage(currentIndex);
+    }
+
+    // Auto-advance every 5 seconds
+    setInterval(nextImage, 5000);
+});
+
+</script>
+<body>
+    <!-- <header class="site-header">
+        <div class="container">
+            <img src="inside_verse_header2.png" alt="Inside Verse API Header" class="header-image">
         </div>
-      </header>
-      <main>
-        <section>
-        <div class="container-fluid grid">
-          <hgroup>
-            <h2>API Routes</h2>
-            <aside>
-              <nav>
-                <ul>
-                  <li>
-                    <a href="quotes" class="pico-link">/quotes</a>
-                    <sup>44x</sup>
-                  </li>
-                  <li>
-                    <a href="characters" class="pico-link">/characters</a>
-                    <sup>10x</sup>
-                  </li>
-                  <li>
-                    <a href="organizations" class="pico-link">/organizations</a>
-                    <sup>7x</sup>
-                  </li>
-                  <li>
-                    <a href="episodes" class="pico-link">/episodes</a>
-                    <sup>18x</sup>
-                  </li>
-                </ul>
-              </nav>
-            </aside>
-          </hgroup>
-          <hgroup class="present_">
-            <h1 class="pico-text pico-center">Inside Verse API</h1>
-            <p class="pico-text">
-              Step into the immersive world of the "Inside Job" series with the
-              "InsideVerseAPI." This API provides seamless access to a treasure
-              trove of quotes, dialogues, and memorable lines from your beloved
-              characters. Unearth the wit, wisdom, and humor that define the
-              essence of "Inside Job." Whether you're seeking entertainment or
-              inspiration, "InsideVerseAPI" is your gateway to the rich tapestry
-              of storytelling within the "Inside Job" universe.
-            </p>
-          </hgroup>
-        </div>
-        </section>
-        <section>
-          <div class="container-fluid">
-            <hr />
-            <hgroup>
-              <h2>Usages Routes</h2>
-              <pre>
-      
-  GET    /quotes
-  GET    /quotes/1
-  GET    /quotes/random
-  GET    /quotes?_limit=20
+    </header> -->
 
-  GET    /characters
-  GET    /characters/1
-  GET    /characters?_limit=3
+    <header class="site-header">
+      <div class="container">
+          <div class="carousel">
+              <img src="inside_verse_header.png" alt="Inside Verse API Header 1" class="carousel-image">
+              <img src="inside_verse_header2.png" alt="Inside Verse API Header 2" class="carousel-image">
+              <img src="inside_verse_header3.png" alt="Inside Verse API Header 3" class="carousel-image">
+              <img src="inside_verse_header4.png" alt="Inside Verse API Header 4" class="carousel-image active">
 
-  GET    /organizations
-  GET    /organizations/1
-  GET    /organizations?_limit=4
-
-  GET    /episodes
-  GET    /episodes?season=2
-  GET    /episodes?season=1&episode=2
-              </pre>
-              <a href="https://www.npmjs.com/package/json-server#routes">Others examples here</a>
-            </hgroup>
-          </div>
-        </section>
-      </main>
-      <footer>
-        <div class="container-fluid">
-          <hr />
-          <hgroup>
-            <strong class="pico-text"
-            >© 2023 Inside Verse API. All rights reserved.</>
-          <p class="pico-text"
-            >All trademarks referenced herein are the properties of their
-            respective owners.</p>
-          <p class="pico-text"
-            >Made with ❤️ by
-            <a href="https://benoitpetit.dev">benoitpetit.dev</a>
-          </p>
-          </hgroup>
-</div>
-      </footer>
-      <hr />
-      <br />
-      <div style="text-align: center;">
-        <a href="https://github.com/benoitpetit/inside-verse-api">
-          <img src="github.webp" alt="GitHub Logo" class="github-logo" />
-        </a>
+            </div>
       </div>
-    </div>
-  </body>
-</html>
+  </header>
+
+    <main class="container">
+        <section id="intro">
+            <h1>Inside Verse API</h1>
+            <p>Step into the immersive world of the "Inside Job" series with the Inside Verse API. This API provides seamless access to a treasure trove of quotes, dialogues, and memorable lines from your beloved characters. Unearth the wit, wisdom, and humor that define the essence of "Inside Job." Whether you're seeking entertainment or inspiration, Inside Verse API is your gateway to the rich tapestry of storytelling within the "Inside Job" universe.</p>
+        </section>
+
+        <section id="routes">
+            <h2>Available Routes</h2>
+            <div class="route-list">
+                <div class="route-item">
+                    <a href="https://inside-verse-api.com/quotes" class="api-link">
+                        <h3>/quotes</h3>
+                        <p>44 entries</p>
+                    </a>
+                </div>
+                <div class="route-item">
+                    <a href="https://inside-verse-api.com/characters" class="api-link">
+                        <h3>/characters</h3>
+                        <p>10 entries</p>
+                    </a>
+                </div>
+                <div class="route-item">
+                    <a href="https://inside-verse-api.com/organizations" class="api-link">
+                        <h3>/organizations</h3>
+                        <p>7 entries</p>
+                    </a>
+                </div>
+                <div class="route-item">
+                    <a href="https://inside-verse-api.com/locations" class="api-link">
+                        <h3>/locations</h3>
+                        <p>11 entries</p>
+                    </a>
+                </div>
+                <div class="route-item">
+                    <a href="https://inside-verse-api.com/conspiracies" class="api-link">
+                        <h3>/conspiracies</h3>
+                        <p>15 entries</p>
+                    </a>
+                </div>
+                <div class="route-item">
+                    <a href="https://inside-verse-api.com/technologies" class="api-link">
+                        <h3>/technologies</h3>
+                        <p>11 entries</p>
+                    </a>
+                </div>
+                <div class="route-item">
+                    <a href="https://inside-verse-api.com/episodes" class="api-link">
+                        <h3>/episodes</h3>
+                        <p>18 entries</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="usage">
+            <h2>Usage Examples</h2>
+            <pre class="bg-other"><code>
+GET    /quotes
+GET    /quotes/1
+GET    /quotes?_limit=20
+
+GET    /characters
+GET    /characters/1
+GET    /characters?_limit=3
+
+GET    /organizations
+GET    /organizations/1
+GET    /organizations?_limit=4
+
+GET    /episodes
+GET    /episodes?season=2
+GET    /episodes?season=1&episode=2
+
+GET    /locations
+GET    /locations/1
+GET    /locations?_limit=5
+
+GET    /conspiracies
+GET    /conspiracies/1
+GET    /conspiracies?_limit=5
+
+GET    /technologies
+GET    /technologies/1
+GET    /technologies?_limit=5
+            </code></pre>
+            <p>For more examples, check out the <a href="https://www.npmjs.com/package/json-server#routes">JSON Server documentation</a>.</p>
+        </section>
+
+        <section id="example">
+          <h2>JavaScript Example: Fetching Quotes</h2>
+          <div class="code-container">
+              <pre class="bg-other"><code>
+      fetch('https://inside-verse-api.com/quotes/random')
+          .then(response => response.json())
+          .catch(error => console.error('Error:', error));
+              </code></pre>
+          </div>
+          <span id="cooldownTimer" class="cooldown-timer"></span>
+          <button id="fetchQuotes" class="secondary">Fetch Random Quote</button>
+          <div id="quoteLog" class="log-output">Click the "Fetch Random Quote" button</div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2023 Inside Verse API. All rights reserved.</p>
+            <p>All trademarks referenced herein are the properties of their respective owners.</p>
+            <p>Made with ❤️ by <a href="https://benoitpetit.dev">benoitpetit.dev</a></p>
+            <a href="https://github.com/benoitpetit/inside-verse-api" class="github-link" aria-label="GitHub Repository">
+                <img src="github.webp" alt="GitHub Logo" class="github-logo">
+            </a>
         </div>
-      </footer>
-      <br />
-    </div>
-  </body>
+    </footer>
+    <script src="fetch-quotes.js"></script>
+</body>
 </html>

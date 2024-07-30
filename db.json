@@ -3,306 +3,266 @@
     {
       "id": 1,
       "character_id": 4,
-      "character": "Gigi Thompson",
       "quote": "Weddings are fun. It's like, 'Hey, we're giving up. Let's celebrate.'",
-      "episode": "Inside job - Saison 1, Épisode 2 (2021)"
+      "episode_id": 2
     },
     {
       "id": 2,
       "character_id": 6,
-      "character": "ROBOTUS",
       "quote": "I will not kill Joey Tribbiani. He is my friend.",
-      "episode": "Inside job - Saison 1, Épisode 5 (2021)"
+      "episode_id": 5
     },
     {
       "id": 3,
       "character_id": 8,
-      "character": "Dr. Andre Lee",
       "quote": "You could play a child soldier in World War III. It's coming soon, brought to you by Pepsi.",
-      "episode": "Inside job - Saison 1, Épisode 3 (2021)"
+      "episode_id": 3
     },
     {
       "id": 4,
       "character_id": 9,
-      "character": "Magic Myc",
       "quote": "I'm going to go do drugs in the bathroom. And by drugs, I mean mushrooms. And by bathroom, I mean your desk.",
-      "episode": "Inside job - Saison 1, Épisode 6 (2021)"
+      "episode_id": 6
     },
     {
       "id": 5,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "Welcome to the 2020s. Nothing matters, and we're all going to die.",
-      "episode": "Inside job - Saison 1, Épisode 1 (2021)"
+      "episode_id": 1
     },
     {
       "id": 6,
       "character_id": 7,
-      "character": "Glenn Dolphman",
       "quote": "I sent them all to detention, but they kept coming of age!",
-      "episode": "Inside job - Saison 1, Épisode 4 (2021)"
+      "episode_id": 4
     },
     {
       "id": 7,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "I fixed my weird mental hang-up. Yay, me!",
-      "episode": "Inside job - Saison 1, Épisode 7 (2021)"
+      "episode_id": 7
     },
     {
       "id": 8,
       "character_id": 5,
-      "character": "J.R. Scheimpough",
       "quote": "You're not my family. You're my work family. Which means I tolerate you because you make me money.",
-      "episode": "Inside job - Saison 1, Épisode 8 (2021)"
+      "episode_id": 8
     },
     {
       "id": 9,
       "character_id": 3,
-      "character": "Brett Hand",
       "quote": "Oh my God. I was hired for my face.",
-      "episode": "Inside job - Saison 1, Épisode 9 (2021)"
+      "episode_id": 9
     },
     {
       "id": 10,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "I don't want to be an evil overlord. Unless it's the only way to make the world more organized.",
-      "episode": "Inside job - Saison 1, Épisode 10 (2021)"
+      "episode_id": 10
     },
     {
       "id": 11,
-      "character_id": 1,
-      "character": "Rand Ridley",
+      "character_id": 2,
       "quote": "Bullshit, listen up kids, everything they teach you in school is a lie. Want the truth? The world is controlled by a shadow elite of shape-shifting lizard people.",
-      "episode": "Inside job - Épisode 1(2021)"
+      "episode_id": 1
     },
     {
       "id": 12,
       "character_id": 4,
-      "character": "Gigi Thompson",
       "quote": "Welcome to media manipulation and subliminal messaging, where we invent bullshit to keep people distracted.",
-      "episode": "Inside job - Épisode 2(2021)"
+      "episode_id": 2
     },
     {
       "id": 13,
-      "character_id": 1,
-      "character": "Rand Ridley",
+      "character_id": 2,
       "quote": "Sorry i'm late, a father should never miss his daughter's first sentencing.",
-      "episode": "Inside job - Épisode 3(2021)"
+      "episode_id": 3
     },
     {
       "id": 14,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "People are really are their best selves when they don't have to try.",
-      "episode": "Inside job - Épisode 4(2021)"
+      "episode_id": 4
     },
     {
       "id": 15,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "Nostalgia is bullshit. It is a brain-worm that makes adults regress into children...",
-      "episode": "Inside job - Épisode 5(2021)"
+      "episode_id": 5
     },
     {
       "id": 16,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "Most conspiracies are just capitalism.",
-      "episode": "Inside job - Épisode 6(2021)"
+      "episode_id": 6
     },
     {
       "id": 17,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "... sometimes, the hard thing is the right thing.",
-      "episode": "Inside job - Épisode 7(2021)"
+      "episode_id": 7
     },
     {
       "id": 18,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "No moon? No tide. Half the globe will be flooded. What will wolves howl at?",
-      "episode": "Inside job - Épisode 8(2021)"
+      "episode_id": 8
     },
     {
       "id": 19,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "You know, lording your ethical superiority over people, it's not very ethical. Ethics aren't ethical ?",
-      "episode": "Inside job - Épisode 9(2021)"
+      "episode_id": 9
     },
     {
       "id": 20,
-      "character_id": 1,
-      "character": "Rand Ridley",
+      "character_id": 2,
       "quote": "There are special people like us who should run the world, and there's normies like Orinn, who deliver our pizza and fight our wars.",
-      "episode": "Inside job - Épisode 10(2021)"
+      "episode_id": 10
     },
     {
       "id": 21,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "Life is just dreams turn into entropy.",
-      "episode": "Inside job - Épisode 1(2022)"
+      "episode_id": 11
     },
     {
       "id": 22,
       "character_id": 4,
-      "character": "Gigi Thompson",
       "quote": "Why does Banksy create art on boring walls? The challenge.",
-      "episode": "Inside job - Épisode 2(2022)"
+      "episode_id": 12
     },
     {
       "id": 23,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "I'm the smartest person in the room, and that's usually because I'm the only one in the room.",
-      "episode": "Inside Job - Saison 1, Épisode 2 (2021)"
+      "episode_id": 2
     },
     {
       "id": 24,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "I don't want to be a villain. I want to be a hero. But the world is a complicated place, and sometimes, heroes have to do bad things to make the world a better place.",
-      "episode": "Inside Job - Saison 1, Épisode 10 (2021)"
+      "episode_id": 10
     },
     {
       "id": 25,
-      "character_id": 1,
-      "character": "Rand Ridley",
+      "character_id": 2,
       "quote": "The world is a cruel place, and the only way to survive is to be crueler.",
-      "episode": "Inside Job - Saison 1, Épisode 1 (2021)"
+      "episode_id": 1
     },
     {
       "id": 26,
-      "character_id": 1,
-      "character": "Rand Ridley",
+      "character_id": 2,
       "quote": "The only thing that matters is power. And I have all the power.",
-      "episode": "Inside Job - Saison 1, Épisode 10 (2021)"
+      "episode_id": 10
     },
     {
       "id": 27,
       "character_id": 4,
-      "character": "Gigi Thompson",
       "quote": "The world is a lie. And I'm the one who's going to tell it.",
-      "episode": "Inside Job - Saison 1, Épisode 2 (2021)"
+      "episode_id": 2
     },
     {
       "id": 28,
       "character_id": 4,
-      "character": "Gigi Thompson",
       "quote": "I'm not here to make friends. I'm here to make money.",
-      "episode": "Inside Job - Saison 1, Épisode 9 (2021)"
+      "episode_id": 9
     },
     {
       "id": 29,
       "character_id": 3,
-      "character": "Brett Hand",
       "quote": "I'm just a simple guy, trying to make my way in the world.",
-      "episode": "Inside Job - Saison 1, Épisode 1 (2021)"
+      "episode_id": 1
     },
     {
       "id": 30,
       "character_id": 3,
-      "character": "Brett Hand",
       "quote": "I'm not a hero. I'm just a guy who's good at his job.",
-      "episode": "Inside Job - Saison 1, Épisode 10 (2021)"
+      "episode_id": 10
     },
     {
       "id": 31,
-      "character": "Inside Job",
+      "character_id": null,
       "quote": "The world is a stage, and we're all just players in the game.",
-      "episode": "Inside Job"
+      "episode_id": null
     },
     {
       "id": 32,
-      "character": "Inside Job",
+      "character_id": null,
       "quote": "The truth is out there, but it's not always what you're told.",
-      "episode": "Inside Job"
+      "episode_id": null
     },
     {
       "id": 33,
-      "character": "Inside Job",
+      "character_id": null,
       "quote": "The world is a dangerous place, but it's also a beautiful place. It's up to us to decide which one we want to see.",
-      "episode": "Inside Job"
+      "episode_id": null
     },
     {
       "id": 34,
-      "character": "Inside Job",
+      "character_id": null,
       "quote": "... for a better tomorrow. We are Cognito Inc. We've got covered, up !",
-      "episode": "Inside job - Épisode 1(2021)"
+      "episode_id": 1
     },
     {
       "id": 35,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "I'm not perfect, but I'm trying my best.",
-      "episode": "Inside Job - Saison 1, Épisode 8 (2021)"
+      "episode_id": 8
     },
     {
       "id": 36,
-      "character_id": 1,
-      "character": "Rand Ridley",
+      "character_id": 2,
       "quote": "I'm not a bad guy. I'm just trying to make the world a better place... in my own way.",
-      "episode": "Inside Job - Saison 1, Épisode 10 (2021)"
+      "episode_id": 10
     },
     {
       "id": 37,
       "character_id": 3,
-      "character": "Brett Hand",
       "quote": "I'm not a coward. I'm just afraid of heights... and spiders... and clowns... and the dark... and... okay, I'm kind of a coward.",
-      "episode": "Inside Job - Saison 1, Épisode 6 (2021)"
+      "episode_id": 6
     },
     {
       "id": 38,
       "character_id": 4,
-      "character": "Gigi Thompson",
       "quote": "I'm not always right, but I'm never wrong.",
-      "episode": "Inside Job - Saison 1, Épisode 3 (2021)"
+      "episode_id": 3
     },
     {
       "id": 39,
       "character_id": 8,
-      "character": "Dr. Andre Lee",
       "quote": "I'm not a scientist. I'm just a guy with a lot of money and a lab coat.",
-      "episode": "Inside Job - Saison 1, Épisode 5 (2021)"
+      "episode_id": 5
     },
     {
       "id": 40,
       "character_id": 9,
-      "character": "Magic Myc",
       "quote": "I'm not a hippie. I'm just a guy who likes to smoke mushrooms and talk about peace and love.",
-      "episode": "Inside Job - Saison 1, Épisode 7 (2021)"
+      "episode_id": 7
     },
     {
       "id": 41,
       "character_id": 1,
-      "character": "Reagan Ridley",
       "quote": "I'm not sure what I want to do with my life, but I'm having a lot of fun along the way.",
-      "episode": "Inside Job - Saison 1, Épisode 9 (2021)"
+      "episode_id": 9
     },
     {
       "id": 42,
-      "character_id": 1,
-      "character": "Rand Ridley",
+      "character_id": 2,
       "quote": "I'm not the villain. You are.",
-      "episode": "Inside Job - Saison 1, Épisode 1 (2021)"
+      "episode_id": 1
     },
     {
       "id": 43,
       "character_id": 3,
-      "character": "Brett Hand",
       "quote": "I'm not a hero. I'm just a guy who's good at being in the right place at the right time.",
-      "episode": "Inside Job - Saison 1, Épisode 2 (2021)"
+      "episode_id": 2
     },
     {
       "id": 44,
       "character_id": 4,
-      "character": "Gigi Thompson",
       "quote": "I'm not a puppet. I'm a string puller.",
-      "episode": "Inside Job - Saison 1, Épisode 4 (2021)"
+      "episode_id": 4
     }
   ],
   "characters": [
@@ -315,10 +275,14 @@
       "species": "Human",
       "personality": "Reagan is a brilliant but socially awkward engineer who works at Cognito Inc. She is ambitious and cynical, but she also has a kind heart.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/c/ce/Reagan_Ridley_Episode_01.png",
-      "interests": "Science, technology, conspiracy theories",
-      "friends": ["Brett Hand", "Gigi Thompson", "Magic Myc"],
-      "enemies": ["Rand Ridley", "J.R. Scheimpough"],
-      "family": ["Rand Ridley", "Tamiko Ridley"]
+      "interests": ["Science", "technology", "conspiracy theories"],
+      "friend_ids": [3, 4, 9],
+      "enemy_ids": [2, 5],
+      "family_ids": [2, 10],
+      "quote_ids": [5, 7, 10, 14, 15, 16, 17, 18, 19, 21, 23, 24, 35, 41],
+      "episode_ids": [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+      ]
     },
     {
       "id": 2,
@@ -329,9 +293,13 @@
       "species": "Human",
       "personality": "Rand is a paranoid and delusional man who believes that the world is controlled by a shadow government. He is also manipulative and power-hungry.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/9/97/Rand_Scowl.png",
-      "interests": "Conspiracy theories, power, money",
-      "enemies": ["Reagan Ridley"],
-      "family": ["Reagan Ridley", "Tamiko Ridley"]
+      "interests": ["Conspiracy theories", "power", "money"],
+      "enemy_ids": [1],
+      "family_ids": [1, 10],
+      "quote_ids": [11, 13, 20, 25, 26, 36, 42],
+      "episode_ids": [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+      ]
     },
     {
       "id": 3,
@@ -342,100 +310,118 @@
       "species": "Human",
       "personality": "Brett is a kind and loyal friend, but he can also be awkward and insecure. He is often caught in the middle of the conflict between Reagan and her father.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/6/6b/Brett_in_JR%27s_office.png",
-      "interests": "Reagan Ridley, Gigi Thompson, Magic Myc",
-      "friends": ["Reagan Ridley", "Gigi Thompson", "Magic Myc"],
-      "enemies": ["Rand Ridley", "J.R. Scheimpough"]
+      "interests": ["Reagan Ridley", "Gigi Thompson", "Magic Myc"],
+      "friend_ids": [1, 4, 9],
+      "enemy_ids": [2, 5],
+      "quote_ids": [9, 29, 30, 37, 43],
+      "episode_ids": [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+      ]
     },
     {
       "id": 4,
       "name": "Gigi Thompson",
-      "age": "Unknown",
+      "age": null,
       "gender": "Female",
       "occupation": "Administrative assistant at Cognito Inc.",
       "species": "Human",
       "personality": "Gigi is a cynical and sarcastic woman who is often seen drinking wine and complaining about her job.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/c/ce/Gigi_Thompson.png",
-      "interests": "Wine, gossip, reality TV",
-      "friends": ["Reagan Ridley", "Brett Hand", "Magic Myc"],
-      "enemies": ["Rand Ridley", "J.R. Scheimpough"]
+      "interests": ["Wine", "gossip", "reality TV"],
+      "friend_ids": [1, 3, 9],
+      "enemy_ids": [2, 5],
+      "quote_ids": [1, 12, 22, 27, 28, 38, 44],
+      "episode_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     },
     {
       "id": 5,
       "name": "J.R. Scheimpough",
-      "age": "Unknown",
+      "age": null,
       "gender": "Male",
       "occupation": "Chief financial officer at Cognito Inc.",
       "species": "Human",
       "personality": "J.R. is a greedy and self-absorbed man who is obsessed with money. He is also manipulative and ruthless.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/c/cb/J.R..png",
-      "interests": "Money, power, himself",
-      "friends": ["Rand Ridley"],
-      "enemies": ["Reagan Ridley", "Brett Hand"]
+      "interests": ["Money", "power", "himself"],
+      "friend_ids": [2],
+      "enemy_ids": [1, 3],
+      "quote_ids": [8],
+      "episode_ids": [1, 2, 3, 4, 5, 6, 7, 8]
     },
     {
       "id": 6,
       "name": "Robotus",
-      "age": "Unknown",
+      "age": null,
       "gender": "Male",
       "occupation": "A robot who works at Cognito Inc.",
       "species": "Robot",
       "personality": "Robotus is a loyal and obedient robot who is programmed to follow orders. He is also quite literal and has a hard time understanding human emotions.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/5/53/ROBOTUS_Current.png",
-      "interests": "Following orders, being helpful",
-      "friends": ["Reagan Ridley", "Brett Hand", "Gigi Thompson"],
-      "enemies": ["Rand Ridley", "J.R. Scheimpough"]
+      "interests": ["Following orders", "being helpful"],
+      "friend_ids": [1, 3, 4],
+      "enemy_ids": [2, 5],
+      "quote_ids": [2],
+      "episode_ids": [1, 2, 3, 4, 5]
     },
     {
       "id": 7,
       "name": "Glenn Dolphman",
-      "age": "Unknown",
+      "age": null,
       "gender": "Male",
       "occupation": "Head of security at Cognito Inc.",
       "species": "Human",
       "personality": "Glenn is a dim-witted and easily distracted man who is often seen eating candy. He is also quite clumsy and accident-prone.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/a/a3/GlennDolphman.jpeg",
-      "interests": "Candy, cartoons, his cat",
-      "friends": ["Reagan Ridley", "Brett Hand", "Gigi Thompson"],
-      "enemies": ["Rand Ridley", "J.R. Scheimpough"]
+      "interests": ["Candy", "cartoons", "his cat"],
+      "friend_ids": [1, 3, 4],
+      "enemy_ids": [2, 5],
+      "quote_ids": [6],
+      "episode_ids": [1, 2, 3, 4]
     },
     {
       "id": 8,
       "name": "Dr. Andre Lee",
-      "age": "Unknown",
+      "age": null,
       "gender": "Male",
       "occupation": "Scientist at Cognito Inc.",
       "species": "Human",
       "personality": "Dr. Andre is an eccentric scientist who is often seen experimenting on strange things. He is also quite brilliant, but he can also be quite reckless.",
       "image": "https://static.wikia.nocookie.net/lgbt-characters/images/c/c7/Andre_Lee.webp",
-      "interests": "Science, technology, his pet iguana",
-      "friends": ["Reagan Ridley", "Brett Hand", "Gigi Thompson"],
-      "enemies": ["Rand Ridley", "J.R. Scheimpough"]
+      "interests": ["Science", "technology", "his pet iguana"],
+      "friend_ids": [1, 3, 4],
+      "enemy_ids": [2, 5],
+      "quote_ids": [3, 39],
+      "episode_ids": [1, 2, 3, 4, 5]
     },
     {
       "id": 9,
       "name": "Magic Myc",
-      "age": "Unknown",
+      "age": null,
       "gender": "Male",
       "occupation": "Employee at Cognito Inc.",
       "species": "Human",
       "personality": "Magic Myc is a hippie who is often seen smoking drugs and talking about peace and love. He is also quite spiritual and believes in the power of crystals.",
       "image": "https://static.wikia.nocookie.net/sexypedia/images/c/cc/MagicMyc.Png",
-      "interests": "Peace, love, crystals",
-      "friends": ["Reagan Ridley", "Brett Hand", "Gigi Thompson"],
-      "enemies": ["Rand Ridley", "J.R. Scheimpough"]
+      "interests": ["Peace", "love", "crystals"],
+      "friend_ids": [1, 3, 4],
+      "enemy_ids": [2, 5],
+      "quote_ids": [4, 40],
+      "episode_ids": [1, 2, 3, 4, 5, 6, 7]
     },
     {
       "id": 10,
       "name": "Tamiko Ridley",
-      "age": "Unknown",
+      "age": null,
       "gender": "Female",
       "occupation": "Unknown",
       "species": "Human",
       "personality": "Tamiko is Reagan's mother and Rand's ex-wife. She is a sarcastic and critical woman who often mocks her ex-husband.",
       "image": "https://static.wikia.nocookie.net/insidejob/images/7/77/Inside_Job_Tamiko.png",
-      "interests": "Wine, gossip, reality TV",
-      "friends": ["Reagan Ridley"],
-      "enemies": ["Rand Ridley"]
+      "interests": ["Wine", "gossip", "reality TV"],
+      "friend_ids": [1],
+      "enemy_ids": [2],
+      "quote_ids": [],
+      "episode_ids": [6, 10]
     }
   ],
   "organizations": [
@@ -443,189 +429,669 @@
       "id": 1,
       "name": "The Illuminati",
       "description": "A secret society that controls the world. They are the most powerful organization in the world, and they control everything from the government to the media.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/c/cc/Illuminati_Members.png"
+      "image": "https://static.wikia.nocookie.net/insidejob/images/c/cc/Illuminati_Members.png",
+      "related_conspiracy_ids": [5],
+      "related_episode_ids": [16, 18],
+      "related_character_ids": []
     },
     {
       "id": 2,
       "name": "The Shadow Council",
       "description": "A mysterious and ancient cabal of masked figures. They occasionally recruit new members from other secret organizations. Their overall agenda is unknown, but they are in favor of bull markets. In a cold war with Atlantis, allies of the Lizard People, owners of Cognito Inc.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/e/e3/ShadowBoard.png"
+      "image": "https://static.wikia.nocookie.net/insidejob/images/e/e3/ShadowBoard.png",
+      "related_conspiracy_ids": [1, 2, 5],
+      "related_episode_ids": [1],
+      "related_character_ids": [2, 5],
+      "related_location_ids": [2]
     },
     {
       "id": 3,
       "name": "Cognito Inc.",
       "description": "Seems to be the operations arm of the Shadow Council. They report to the council and carry out their will, but their executives are given a fairly high degree of autonomy, allowing them to determine how to carry out the council's wishes and allowing them to pursue their own agenda to some extent. Also referred to as 'The Deep State'.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/b/b9/Cognito_Inc_Logo.png"
+      "image": "https://static.wikia.nocookie.net/insidejob/images/b/b9/Cognito_Inc_Logo.png",
+      "related_conspiracy_ids": [1, 2, 3, 7, 8, 9, 11, 12, 13, 14, 15],
+      "related_episode_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "related_character_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "related_location_ids": [1, 5, 9, 10, 11]
     },
     {
       "id": 4,
       "name": "The Lizard People",
       "description": "A species of shape-shifting reptoids that have infiltrated the highest levels of human society. Allied with Cognito Inc., but it's unknown if they're aware of the existence of the Shadow Council. Their alliance is based on a promise to maintain global warming in exchange for funding.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/3/34/Reptoids.png"
+      "image": "https://static.wikia.nocookie.net/insidejob/images/3/34/Reptoids.png",
+      "related_conspiracy_ids": [4, 7],
+      "related_episode_ids": [3],
+      "related_location_ids": [4]
     },
     {
       "id": 5,
       "name": "The US Government",
       "description": "Heavily compromised by various secret societies, but no one society controls the whole thing. Cognito Inc. controls the executive branch only.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/c/cb/US_Government_seal.png"
+      "image": "https://static.wikia.nocookie.net/insidejob/images/c/cb/US_Government_seal.png",
+      "related_conspiracy_ids": [1, 3],
+      "related_episode_ids": [1],
+      "related_location_ids": [11]
     },
     {
       "id": 6,
       "name": "The British Government",
       "description": "Likely compromised as well, given the connections between the royals and secret societies, and MI6's willingness to work with Cognito Inc.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/0/0c/British_Government_seal.png"
+      "image": "https://static.wikia.nocookie.net/insidejob/images/0/0c/British_Government_seal.png",
+      "related_conspiracy_ids": [1],
+      "related_episode_ids": []
     },
     {
       "id": 7,
       "name": "Atlantis",
       "description": "Seems to be in a state of cold war with the rest of the underworld. Neither Cognito Inc nor the Lizard People seem fond of them. For unknown reasons, NASA is willing to edit them out of photos of Earth.",
-      "image": "https://static.wikia.nocookie.net/insidejob/images/f/fb/AtlantisIsland.png"
+      "image": "https://static.wikia.nocookie.net/insidejob/images/f/fb/AtlantisIsland.png",
+      "related_conspiracy_ids": [6],
+      "related_episode_ids": [8],
+      "related_location_ids": [8]
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Cognito Inc. Headquarters",
+      "description": "The main office of Cognito Inc., located in Washington D.C. It's a high-tech facility with various secret departments and advanced technology.",
+      "notable_features": [
+        "Hologram disguise system",
+        "Underground tunnels",
+        "Memory wiping room",
+        "Robotics lab"
+      ],
+      "first_appearance_episode_id": 1,
+      "significance": "Main setting of the series, where most of the characters work",
+      "related_technology_ids": [1, 2, 3, 5, 7],
+      "related_character_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+      "id": 2,
+      "name": "Shadow Council Chamber",
+      "description": "A mysterious, dimly lit room where the Shadow Council meets to make decisions that shape the world.",
+      "notable_features": [
+        "Ancient artifacts",
+        "Holographic displays",
+        "Ominous atmosphere"
+      ],
+      "first_appearance_episode_id": 1,
+      "significance": "Where major world-altering decisions are made",
+      "related_organization_ids": [2],
+      "related_character_ids": [2, 5]
+    },
+    {
+      "id": 3,
+      "name": "Reagan's Apartment",
+      "description": "Reagan Ridley's living space, often seen in the series.",
+      "notable_features": [
+        "Messy and cluttered",
+        "Filled with conspiracy theory boards",
+        "High-tech security systems"
+      ],
+      "first_appearance_episode_id": 1,
+      "significance": "Provides insight into Reagan's personal life and mindset",
+      "related_character_ids": [1]
+    },
+    {
+      "id": 4,
+      "name": "Reptoid Gala Venue",
+      "description": "An opulent location where the annual Reptoid Gala is held.",
+      "notable_features": [
+        "Luxurious decor",
+        "Secret rooms for reptilian activities",
+        "Advanced security measures"
+      ],
+      "first_appearance_episode_id": 3,
+      "significance": "Key location for lizard people conspiracy storylines",
+      "related_conspiracy_ids": [4, 7],
+      "related_organization_ids": [4]
+    },
+    {
+      "id": 5,
+      "name": "1980s Trapped Town",
+      "description": "A small town deliberately kept in a perpetual 1980s state by Cognito Inc.",
+      "notable_features": [
+        "Outdated technology and fashion",
+        "Time manipulation field",
+        "Oblivious residents"
+      ],
+      "first_appearance_episode_id": 5,
+      "significance": "Showcases Cognito Inc.'s power to manipulate reality on a large scale",
+      "related_conspiracy_ids": [12],
+      "related_technology_ids": [4]
+    },
+    {
+      "id": 6,
+      "name": "Hollow Earth",
+      "description": "A vast underground world beneath the Earth's surface.",
+      "notable_features": [
+        "Bioluminescent flora and fauna",
+        "Ancient civilizations",
+        "Mythical creatures"
+      ],
+      "first_appearance_episode_id": 8,
+      "significance": "Confirms the Hollow Earth theory and hosts various hidden societies"
+    },
+    {
+      "id": 7,
+      "name": "Moon Base",
+      "description": "A secret base located on the dark side of the Moon.",
+      "notable_features": [
+        "Advanced life support systems",
+        "Earth observation equipment",
+        "Secret weapon stockpile"
+      ],
+      "first_appearance_episode_id": 8,
+      "significance": "Strategic location for monitoring Earth and potential alien encounters",
+      "related_conspiracy_ids": [3]
+    },
+    {
+      "id": 8,
+      "name": "Atlantis",
+      "description": "The legendary sunken city, revealed to actually exist in the series.",
+      "notable_features": [
+        "Advanced underwater technology",
+        "Ancient architecture",
+        "Isolationist society"
+      ],
+      "first_appearance_episode_id": 8,
+      "significance": "Major player in global conspiracies, often at odds with surface world powers",
+      "related_conspiracy_ids": [6],
+      "related_organization_ids": [7]
+    },
+    {
+      "id": 9,
+      "name": "MKULTRA Memorial Laboratory",
+      "description": "A laboratory for memory and mind control research, paying homage to a secret government project.",
+      "notable_features": [
+        "Brainwashing equipment",
+        "Confinement rooms",
+        "Experimentation archives"
+      ],
+      "first_appearance_episode_id": 2,
+      "significance": "Key location for experiments on mind control.",
+      "related_technology_ids": [1, 5, 11],
+      "related_conspiracy_ids": [9]
+    },
+    {
+      "id": 10,
+      "name": "Blissful Mind Spa",
+      "description": "A spa designed for Cognito Inc. members, offering mind control therapies for the staff.",
+      "notable_features": [
+        "Decompression baths",
+        "Subliminal music",
+        "Hypnotic relaxation treatments"
+      ],
+      "first_appearance_episode_id": 4,
+      "significance": "Demonstrates methods of stress management and psychological manipulation.",
+      "related_technology_ids": [5],
+      "related_conspiracy_ids": [9]
+    },
+    {
+      "id": 11,
+      "name": "Area 51 Annex",
+      "description": "A secret facility run by Cognito Inc., distinct from the famous military base.",
+      "notable_features": [
+        "Reverse-engineering labs for alien technology",
+        "Detention cells",
+        "Quarantine zone"
+      ],
+      "first_appearance_episode_id": 6,
+      "significance": "Reinforces theories of government collaborations with extraterrestrials.",
+      "related_conspiracy_ids": [1, 3],
+      "related_organization_ids": [3, 5]
+    }
+  ],
+  "conspiracies": [
+    {
+      "id": 1,
+      "name": "Deep State",
+      "description": "Cognito Inc. operates as the true power behind the US government, controlling major decisions and events.",
+      "related_episode_ids": [1, 18],
+      "related_character_ids": [1, 2, 5],
+      "related_organization_ids": [3, 5],
+      "related_location_ids": [1, 2, 11]
+    },
+    {
+      "id": 2,
+      "name": "Flat Earth",
+      "description": "The belief that the Earth is flat, secretly promoted by certain factions within the shadow government.",
+      "related_episode_ids": [6],
+      "related_organization_ids": [2, 3]
+    },
+    {
+      "id": 3,
+      "name": "Moon Landing Hoax",
+      "description": "The idea that the Apollo moon landings were faked, a conspiracy actually managed by Cognito Inc.",
+      "related_episode_ids": [8],
+      "related_organization_ids": [3, 5],
+      "related_location_ids": [7, 11]
+    },
+    {
+      "id": 4,
+      "name": "Reptilian Infiltration",
+      "description": "Shape-shifting reptilian beings have infiltrated the highest levels of human society.",
+      "related_episode_ids": [3],
+      "related_organization_ids": [4],
+      "related_location_ids": [4]
+    },
+    {
+      "id": 5,
+      "name": "Illuminati Control",
+      "description": "A secret society that controls the world, including governments and media.",
+      "related_episode_ids": [16, 18],
+      "related_organization_ids": [1, 2]
+    },
+    {
+      "id": 6,
+      "name": "Atlantis Existence",
+      "description": "The lost city of Atlantis actually exists and is in a cold war with the rest of the underworld.",
+      "related_episode_ids": [8],
+      "related_organization_ids": [7],
+      "related_location_ids": [8]
+    },
+    {
+      "id": 7,
+      "name": "Controlled Global Warming",
+      "description": "Global warming is deliberately maintained by Cognito Inc. in exchange for funding from the Reptilians.",
+      "related_episode_ids": [3],
+      "related_organization_ids": [3, 4],
+      "related_location_ids": [4]
+    },
+    {
+      "id": 8,
+      "name": "Media Manipulation",
+      "description": "Cognito Inc. actively controls and manipulates media to shape public opinion.",
+      "related_episode_ids": [2, 15],
+      "related_organization_ids": [3],
+      "related_technology_ids": [2]
+    },
+    {
+      "id": 9,
+      "name": "Memory Suppression Technology",
+      "description": "Cognito Inc. possesses and uses devices capable of erasing specific memories from individuals.",
+      "related_episode_ids": [1, 17],
+      "related_organization_ids": [3],
+      "related_technology_ids": [1],
+      "related_location_ids": [1, 9, 10]
+    },
+    {
+      "id": 10,
+      "name": "Project Reboot",
+      "description": "A massive initiative by Rand Ridley to alter reality and people's memories on a global scale.",
+      "related_episode_ids": [17],
+      "related_character_ids": [2],
+      "related_technology_ids": [8]
+    },
+    {
+      "id": 11,
+      "name": "Public Figure Cloning",
+      "description": "Certain public figures are replaced with clones controlled by Cognito Inc.",
+      "related_episode_ids": [1, 2],
+      "related_organization_ids": [3],
+      "related_technology_ids": [7]
+    },
+    {
+      "id": 12,
+      "name": "80s Trapped Town",
+      "description": "A small town is deliberately kept in a perpetual 1980s state.",
+      "related_episode_ids": [5],
+      "related_organization_ids": [3],
+      "related_location_ids": [5],
+      "related_technology_ids": [4]
+    },
+    {
+      "id": 13,
+      "name": "Vatican Manipulation",
+      "description": "Cognito Inc. actively influences the decisions and actions of the Pope and the Catholic Church.",
+      "related_episode_ids": [14],
+      "related_organization_ids": [3]
+    },
+    {
+      "id": 14,
+      "name": "Celebrity Control",
+      "description": "Some Hollywood celebrities are actually supernatural creatures (like vampires) or are controlled by Cognito Inc.",
+      "related_episode_ids": [12],
+      "related_organization_ids": [3],
+      "related_technology_ids": [2, 5]
+    },
+    {
+      "id": 15,
+      "name": "Holographic Disguise Technology",
+      "description": "Cognito Inc. possesses advanced technology that can project a completely different appearance over a person or object.",
+      "related_episode_ids": [3, 11],
+      "related_organization_ids": [3],
+      "related_technology_ids": [2],
+      "related_location_ids": [1]
+    }
+  ],
+  "technologies": [
+    {
+      "id": 1,
+      "name": "Memory Wipe Device",
+      "description": "A device used by Cognito Inc. to erase specific memories from individuals.",
+      "creator": "Cognito Inc. R&D Department",
+      "first_appearance_episode_id": 1,
+      "notable_uses": [
+        "Erasing memories of alien encounters",
+        "Covering up Cognito Inc. operations"
+      ],
+      "related_character_ids": [1, 2, 8],
+      "related_conspiracy_ids": [9],
+      "related_location_ids": [1, 9]
+    },
+    {
+      "id": 2,
+      "name": "Hologram Disguise System",
+      "description": "Advanced technology that can project a completely different appearance over a person or object.",
+      "creator": "Dr. Andre Lee",
+      "first_appearance_episode_id": 3,
+      "notable_uses": [
+        "Disguising Cognito Inc. agents",
+        "Creating fake scenarios for manipulation"
+      ],
+      "related_character_ids": [8],
+      "related_conspiracy_ids": [8, 15],
+      "related_location_ids": [1]
+    },
+    {
+      "id": 3,
+      "name": "Robot President",
+      "description": "An advanced android capable of replacing the actual President of the United States.",
+      "creator": "Reagan Ridley",
+      "first_appearance_episode_id": 1,
+      "notable_uses": [
+        "Controlling US policy",
+        "Maintaining Deep State control"
+      ],
+      "related_character_ids": [1],
+      "related_conspiracy_ids": [1],
+      "related_location_ids": [1]
+    },
+    {
+      "id": 4,
+      "name": "Time Manipulation Device",
+      "description": "A device capable of altering the flow of time in a specific area.",
+      "creator": "Cognito Inc. R&D Department",
+      "first_appearance_episode_id": 5,
+      "notable_uses": [
+        "Keeping a town perpetually in the 1980s",
+        "Conducting long-term social experiments"
+      ],
+      "related_conspiracy_ids": [12],
+      "related_location_ids": [5]
+    },
+    {
+      "id": 5,
+      "name": "Mind Control Chips",
+      "description": "Miniature devices that can be implanted to control an individual's thoughts and actions.",
+      "creator": "Cognito Inc. R&D Department",
+      "first_appearance_episode_id": 2,
+      "notable_uses": [
+        "Controlling public figures",
+        "Manipulating global events"
+      ],
+      "related_conspiracy_ids": [9, 14],
+      "related_location_ids": [9, 10]
+    },
+    {
+      "id": 6,
+      "name": "Weather Control Machine",
+      "description": "A device capable of manipulating weather patterns on a global scale.",
+      "creator": "Cognito Inc. in collaboration with Reptilians",
+      "first_appearance_episode_id": 3,
+      "notable_uses": [
+        "Maintaining global warming",
+        "Creating 'natural' disasters"
+      ],
+      "related_conspiracy_ids": [7],
+      "related_organization_ids": [3, 4]
+    },
+    {
+      "id": 7,
+      "name": "Cloning Technology",
+      "description": "Advanced technology capable of creating perfect genetic copies of individuals.",
+      "creator": "Cognito Inc. R&D Department",
+      "first_appearance_episode_id": 2,
+      "notable_uses": [
+        "Replacing public figures",
+        "Creating disposable agents"
+      ],
+      "related_conspiracy_ids": [11],
+      "related_location_ids": [1]
+    },
+    {
+      "id": 8,
+      "name": "Project Reboot",
+      "description": "A massive system capable of altering reality and people's memories on a global scale.",
+      "creator": "Rand Ridley",
+      "first_appearance_episode_id": 17,
+      "notable_uses": [
+        "Rewriting global history",
+        "Reshaping societal structures"
+      ],
+      "related_character_ids": [2],
+      "related_conspiracy_ids": [10]
+    },
+    {
+      "id": 9,
+      "name": "Truth Seeking Goggles",
+      "description": "Glasses that allow the wearer to see the hidden truth behind appearances.",
+      "creator": "Cognito Inc.",
+      "first_appearance_episode_id": 4,
+      "notable_uses": ["Detecting lies and illusions"],
+      "related_location_ids": [1]
+    },
+    {
+      "id": 10,
+      "name": "Invisibility Cloak",
+      "description": "A cloak that renders the wearer invisible.",
+      "creator": "Cognito Inc.",
+      "first_appearance_episode_id": 6,
+      "notable_uses": ["Espionage and covert missions"],
+      "related_location_ids": [1]
+    },
+    {
+      "id": 11,
+      "name": "Memory Implant Device",
+      "description": "A device capable of implanting false memories.",
+      "creator": "Cognito Inc. R&D Department",
+      "first_appearance_episode_id": 3,
+      "notable_uses": ["Manipulating targets' memories"],
+      "related_conspiracy_ids": [9],
+      "related_location_ids": [1, 9]
     }
   ],
   "episodes": [
     {
-      "season": "1",
-      "episode": "1",
-      "details": {
-        "name": "Episode 1 - Unpresidented",
-        "synopsis": "As Reagan prepares to replace the president with a robot, she finds her hard-earned promotion threatened by a clueless but likable new colleague."
-      }
+      "id": 1,
+      "season": 1,
+      "episode": 1,
+      "name": "Unpresidented",
+      "synopsis": "As Reagan prepares to replace the president with a robot, she finds her hard-earned promotion threatened by a clueless but likable new colleague.",
+      "character_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "location_ids": [1, 2],
+      "technology_ids": [1, 2, 3],
+      "conspiracy_ids": [1, 8, 9],
+      "quote_ids": [5, 11, 25, 29, 34, 42]
     },
     {
-      "season": "1",
-      "episode": "2",
-      "details": {
-        "name": "Episode 2 - Clone Gunman",
-        "synopsis": "When an expensive blunder forces budget cuts at Cognito Inc., J.R. orders Reagan and Brett to decide which of their co-workers should be fired."
-      }
+      "id": 2,
+      "season": 1,
+      "episode": 2,
+      "name": "Clone Gunman",
+      "synopsis": "When an expensive blunder forces budget cuts at Cognito Inc., J.R. orders Reagan and Brett to decide which of their co-workers should be fired.",
+      "character_ids": [1, 2, 3, 4, 5],
+      "location_ids": [1, 9],
+      "technology_ids": [5, 7],
+      "conspiracy_ids": [8, 11],
+      "quote_ids": [1, 12, 23, 27, 43]
     },
     {
-      "season": "1",
-      "episode": "3",
-      "details": {
-        "name": "Episode 3 - Blue Bloods",
-        "synopsis": "After a lizard people-related PR disaster, the team must do damage control at the swanky Reptoid Gala, where — to Reagan's dismay — hugs are required."
-      }
+      "id": 3,
+      "season": 1,
+      "episode": 3,
+      "name": "Blue Bloods",
+      "synopsis": "After a lizard people-related PR disaster, the team must do damage control at the swanky Reptoid Gala, where — to Reagan's dismay — hugs are required.",
+      "character_ids": [1, 2, 3, 4],
+      "location_ids": [1, 4],
+      "technology_ids": [2, 6, 11],
+      "conspiracy_ids": [4, 7],
+      "quote_ids": [3, 13, 38]
     },
     {
-      "season": "1",
-      "episode": "4",
-      "details": {
-        "name": "Episode 4 - Sex Machina",
-        "synopsis": "After Cognito Inc. buys a dating app, Reagan bets her team she can find a boyfriend — and creates a robot version of her perfect match to practice on."
-      }
+      "id": 4,
+      "season": 1,
+      "episode": 4,
+      "name": "Sex Machina",
+      "synopsis": "After Cognito Inc. buys a dating app, Reagan bets her team she can find a boyfriend — and creates a robot version of her perfect match to practice on.",
+      "character_ids": [1, 3, 4, 7],
+      "location_ids": [1, 10],
+      "technology_ids": [9],
+      "quote_ids": [6, 14, 44]
     },
     {
-      "season": "1",
-      "episode": "5",
-      "details": {
-        "name": "Episode 5 - The Brettfast Club",
-        "synopsis": "Brett hopes to have a blast in the past as the team embarks on a nostalgia-laced mission to a small town that's permanently stuck in the '80s."
-      }
+      "id": 5,
+      "season": 1,
+      "episode": 5,
+      "name": "The Brettfast Club",
+      "synopsis": "Brett hopes to have a blast in the past as the team embarks on a nostalgia-laced mission to a small town that's permanently stuck in the '80s.",
+      "character_ids": [1, 2, 3, 6, 8],
+      "location_ids": [5],
+      "technology_ids": [4],
+      "conspiracy_ids": [12],
+      "quote_ids": [2, 15, 39]
     },
     {
-      "season": "1",
-      "episode": "6",
-      "details": {
-        "name": "Episode 6 - My Big Flat Earth Wedding",
-        "synopsis": "Reagan conspires to keep her dad from finding out about her mom's wedding, while J.R. ropes Brett into a personal mission to help offload his mega-yacht."
-      }
+      "id": 6,
+      "season": 1,
+      "episode": 6,
+      "name": "My Big Flat Earth Wedding",
+      "synopsis": "Reagan conspires to keep her dad from finding out about her mom's wedding, while J.R. ropes Brett into a personal mission to help offload his mega-yacht.",
+      "character_ids": [1, 2, 3, 4, 5, 9, 10],
+      "location_ids": [1, 11],
+      "technology_ids": [10],
+      "conspiracy_ids": [2],
+      "quote_ids": [4, 16, 37]
     },
     {
-      "season": "1",
-      "episode": "7",
-      "details": {
-        "name": "Episode 7 - Ghost Protocol",
-        "synopsis": "Reagan sets an elaborate plan in motion to ghost a debonair British secret agent who grows too attached after a fling."
-      }
+      "id": 7,
+      "season": 1,
+      "episode": 7,
+      "name": "Ghost Protocol",
+      "synopsis": "Reagan sets an elaborate plan in motion to ghost a debonair British secret agent who grows too attached after a fling.",
+      "character_ids": [1, 3, 4, 9],
+      "location_ids": [1, 3],
+      "quote_ids": [7, 17, 40]
     },
     {
-      "season": "1",
-      "episode": "8",
-      "details": {
-        "name": "Episode 8 - Buzzkill",
-        "synopsis": "Desperate to get some space from her father, Reagan volunteers for a dangerous mission to the moon to make contact with a rogue colony."
-      }
+      "id": 8,
+      "season": 1,
+      "episode": 8,
+      "name": "Buzzkill",
+      "synopsis": "Desperate to get some space from her father, Reagan volunteers for a dangerous mission to the moon to make contact with a rogue colony.",
+      "character_ids": [1, 2, 3, 4, 5],
+      "location_ids": [1, 6, 7, 8],
+      "conspiracy_ids": [3, 6],
+      "quote_ids": [8, 18, 35]
     },
     {
-      "season": "1",
-      "episode": "9",
-      "details": {
-        "name": "Episode 9 - Mole Hunt",
-        "synopsis": "Exciting changes are afoot at Cognito Inc., but first, Reagan and her team must find the mole behind a security breach that could take down the company."
-      }
+      "id": 9,
+      "season": 1,
+      "episode": 9,
+      "name": "Mole Hunt",
+      "synopsis": "Exciting changes are afoot at Cognito Inc., but first, Reagan and her team must find the mole behind a security breach that could take down the company.",
+      "character_ids": [1, 2, 3, 4, 5],
+      "location_ids": [1],
+      "quote_ids": [9, 19, 28, 41]
     },
     {
-      "season": "1",
-      "episode": "10",
-      "details": {
-        "name": "Episode 10 - Inside Reagan",
-        "synopsis": "To find a forgotten password and save Cognito Inc., Reagan goes deep into her mind and accesses memories from her dysfunctional childhood."
-      }
+      "id": 10,
+      "season": 1,
+      "episode": 10,
+      "name": "Inside Reagan",
+      "synopsis": "To find a forgotten password and save Cognito Inc., Reagan goes deep into her mind and accesses memories from her dysfunctional childhood.",
+      "character_ids": [1, 2, 3, 4, 5, 10],
+      "location_ids": [1, 3],
+      "quote_ids": [10, 20, 24, 26, 30, 36]
     },
     {
-      "season": "2",
-      "episode": "1",
-      "details": {
-        "name": "Episode 1 - How Reagan Got Her Grove Back",
-        "synopsis": "With Rand back in control of Cognito Inc., Reagan gets revenge — and has a hookup — at a Burning Man-style gathering of secret societies."
-      }
+      "id": 11,
+      "season": 2,
+      "episode": 1,
+      "name": "How Reagan Got Her Grove Back",
+      "synopsis": "With Rand back in control of Cognito Inc., Reagan gets revenge — and has a hookup — at a Burning Man-style gathering of secret societies.",
+      "character_ids": [1, 2, 3, 4, 5],
+      "location_ids": [1],
+      "technology_ids": [2],
+      "conspiracy_ids": [15],
+      "quote_ids": [21]
     },
     {
-      "season": "2",
-      "episode": "2",
-      "details": {
-        "name": "Episode 2 - Whoas-Feratu",
-        "synopsis": "Tamiko's new beau is a Hollywood A-lister with a taste for blood, but that doesn't stop a jealous Rand from trying to break up the cozy couple."
-      }
+      "id": 12,
+      "season": 2,
+      "episode": 2,
+      "name": "Whoas-Feratu",
+      "synopsis": "Tamiko's new beau is a Hollywood A-lister with a taste for blood, but that doesn't stop a jealous Rand from trying to break up the cozy couple.",
+      "character_ids": [1, 2, 10],
+      "conspiracy_ids": [14],
+      "quote_ids": [22]
     },
     {
-      "season": "2",
-      "episode": "3",
-      "details": {
-        "name": "Episode 3 - Reagan & Mychelle's Hive School Reunion",
-        "synopsis": "The Cognito crew plays along with Magic Myc's big lies at a class reunion until he goes too far. Meanwhile, Rand finds a gross 'gift' on his desk."
-      }
+      "id": 13,
+      "season": 2,
+      "episode": 3,
+      "name": "Reagan & Mychelle's Hive School Reunion",
+      "synopsis": "The Cognito crew plays along with Magic Myc's big lies at a class reunion until he goes too far. Meanwhile, Rand finds a gross 'gift' on his desk.",
+      "character_ids": [1, 2, 3, 4, 9],
+      "location_ids": [1]
     },
     {
-      "season": "2",
-      "episode": "4",
-      "details": {
-        "name": "Episode 4 - We Found Love in a Popeless Place",
-        "synopsis": "Reagan has to turn the new, woke pope into a fire-and-brimstone pontiff, so she's off to Italy with a friend — and a little romance on the side."
-      }
+      "id": 14,
+      "season": 2,
+      "episode": 4,
+      "name": "We Found Love in a Popeless Place",
+      "synopsis": "Reagan has to turn the new, woke pope into a fire-and-brimstone pontiff, so she's off to Italy with a friend — and a little romance on the side.",
+      "character_ids": [1, 3],
+      "conspiracy_ids": [13]
     },
     {
-      "season": "2",
-      "episode": "5",
-      "details": {
-        "name": "Episode 5 - The Brettwork",
-        "synopsis": "Brett's an overnight sensation when he sits in as the host of a right-wing TV show, but quickly becomes a political puppet gleefully controlled by Rand."
-      }
+      "id": 15,
+      "season": 2,
+      "episode": 5,
+      "name": "The Brettwork",
+      "synopsis": "Brett's an overnight sensation when he sits in as the host of a right-wing TV show, but quickly becomes a political puppet gleefully controlled by Rand.",
+      "character_ids": [2, 3],
+      "conspiracy_ids": [8]
     },
     {
-      "season": "2",
-      "episode": "6",
-      "details": {
-        "name": "Episode 6 - Rontagion",
-        "synopsis": "Now that she's sleeping with the Illuminati, Reagan decides it's time for the Cognito Inc. gang to meet Ron and persuade him to jump ship."
-      }
+      "id": 16,
+      "season": 2,
+      "episode": 6,
+      "name": "Rontagion",
+      "synopsis": "Now that she's sleeping with the Illuminati, Reagan decides it's time for the Cognito Inc. gang to meet Ron and persuade him to jump ship.",
+      "character_ids": [1, 3, 4],
+      "conspiracy_ids": [5]
     },
     {
-      "season": "2",
-      "episode": "7",
-      "details": {
-        "name": "Episode 7 - Project Reboot",
-        "synopsis": "Rand unleashes Project Reboot as the Cognito co-workers learn about their alternate lives — and how a tin foil hat can actually come in handy."
-      }
+      "id": 17,
+      "season": 2,
+      "episode": 7,
+      "name": "Project Reboot",
+      "synopsis": "Rand unleashes Project Reboot as the Cognito co-workers learn about their alternate lives — and how a tin foil hat can actually come in handy.",
+      "character_ids": [1, 2, 3, 4, 5],
+      "technology_ids": [8],
+      "conspiracy_ids": [9, 10]
     },
     {
-      "season": "2",
-      "episode": "8",
-      "details": {
-        "name": "Episode 8 - Appleton",
-        "synopsis": "With Cognito under new leadership, Reagan meets with the Robes who want a partnership, but she needs to make a big decision about her future."
-      }
+      "id": 18,
+      "season": 2,
+      "episode": 8,
+      "name": "Appleton",
+      "synopsis": "With Cognito under new leadership, Reagan meets with the Robes who want a partnership, but she needs to make a big decision about her future.",
+      "character_ids": [1, 2, 3, 4, 5],
+      "conspiracy_ids": [1, 5]
     }
   ]
 }
