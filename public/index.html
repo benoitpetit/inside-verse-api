@@ -1,168 +1,453 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inside Verse API - Explore the Inside Job Universe</title>
-    <meta name="description" content="Access quotes, characters, and more from the Inside Job series with the Inside Verse API. Perfect for fans and developers alike.">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const carousel = document.querySelector('.carousel');
-    const images = carousel.querySelectorAll('.carousel-image');
-    const prevButton = carousel.querySelector('.prev');
-    let currentIndex = 0;
+    <meta
+      name="description"
+      content="Access quotes, characters, and more from the Inside Job series with the Inside Verse API. Perfect for fans and developers alike."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const carousel = document.querySelector(".carousel");
+      const images = carousel.querySelectorAll(".carousel-image");
+      const prevButton = carousel.querySelector(".prev");
+      let currentIndex = 0;
 
-    function showImage(index) {
+      function showImage(index) {
         images.forEach((img, i) => {
-            img.classList.toggle('active', i === index);
+          img.classList.toggle("active", i === index);
         });
-    }
+      }
 
-    function nextImage() {
+      function nextImage() {
         currentIndex = (currentIndex + 1) % images.length;
         showImage(currentIndex);
-    }
+      }
 
-    // Auto-advance every 5 seconds
-    setInterval(nextImage, 5000);
-});
-
-</script>
-<body>
-    <!-- <header class="site-header">
-        <div class="container">
-            <img src="inside_verse_header2.png" alt="Inside Verse API Header" class="header-image">
-        </div>
-    </header> -->
+      // Auto-advance every 5 seconds
+      setInterval(nextImage, 5000);
+    });
+  </script>
+  <body>
 
     <header class="site-header">
       <div class="container">
-          <div class="carousel">
-              <img src="inside_verse_header.png" alt="Inside Verse API Header 1" class="carousel-image">
-              <img src="inside_verse_header2.png" alt="Inside Verse API Header 2" class="carousel-image">
-              <img src="inside_verse_header3.png" alt="Inside Verse API Header 3" class="carousel-image">
-              <img src="inside_verse_header4.png" alt="Inside Verse API Header 4" class="carousel-image active">
-
-            </div>
+        <div class="carousel">
+          <img
+            src="inside_verse_header.png"
+            alt="Inside Verse API Header 1"
+            class="carousel-image"
+          />
+          <img
+            src="inside_verse_header2.png"
+            alt="Inside Verse API Header 2"
+            class="carousel-image"
+          />
+          <img
+            src="inside_verse_header3.png"
+            alt="Inside Verse API Header 3"
+            class="carousel-image"
+          />
+          <img
+            src="inside_verse_header4.png"
+            alt="Inside Verse API Header 4"
+            class="carousel-image active"
+          />
+        </div>
       </div>
-  </header>
+    </header>
 
     <main class="container">
-        <section id="intro">
-            <h1>Inside Verse API</h1>
-            <p>Step into the immersive world of the "Inside Job" series with the Inside Verse API. This API provides seamless access to a treasure trove of quotes, dialogues, and memorable lines from your beloved characters. Unearth the wit, wisdom, and humor that define the essence of "Inside Job." Whether you're seeking entertainment or inspiration, Inside Verse API is your gateway to the rich tapestry of storytelling within the "Inside Job" universe.</p>
-        </section>
+                <section id="inside-verse-api">
+            <div class="hero">
+                <h2>Inside Verse API</h2>
+                <p class="text-sm"><strong>Welcome to the Inside Verse API, your one-way ticket to the bonkers world of "Inside Job"!</strong></p>
+                <p class="text-sm">Tired of boring APIs? Well, buckle up, buttercup, because we're about to inject some conspiracy-grade fun into your code! It's like having Reagan, Brett, and the whole Cognito Inc. crew in your pocket (minus the side effects of their wacky experiments)!</p>
+            </div>
 
-        <section id="routes">
-            <h2>Available Routes</h2>
-            <div class="route-list">
-                <div class="route-item">
-                    <a href="https://inside-verse-api.com/quotes" class="api-link">
-                        <h3>/quotes</h3>
-                        <p>44 entries</p>
-                    </a>
+            <h3>Key Features</h3>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h4>Hilarious Quotes</h4>
+                    <p class="text-sm">Access a treasure trove of memorable one-liners from the show.</p>
                 </div>
-                <div class="route-item">
-                    <a href="https://inside-verse-api.com/characters" class="api-link">
-                        <h3>/characters</h3>
-                        <p>10 entries</p>
-                    </a>
+                <div class="feature-item">
+                    <h4>Absurd Dialogues</h4>
+                    <p class="text-sm">Integrate wacky conversations into your projects.</p>
                 </div>
-                <div class="route-item">
-                    <a href="https://inside-verse-api.com/organizations" class="api-link">
-                        <h3>/organizations</h3>
-                        <p>7 entries</p>
-                    </a>
+                <div class="feature-item">
+                    <h4>Deep-State Wisdom</h4>
+                    <p class="text-sm">Discover pearls of wisdom worthy of the greatest conspiracy theories.</p>
                 </div>
-                <div class="route-item">
-                    <a href="https://inside-verse-api.com/locations" class="api-link">
-                        <h3>/locations</h3>
-                        <p>11 entries</p>
-                    </a>
+            </div>
+
+            <div class="inline-sections">
+                <div class="inline-section">
+                    <h3>Who is this API for?</h3>
+                    <ul class="text-sm">
+                        <li>Developers looking to spice up their projects</li>
+                        <li>Conspiracy theory enthusiasts in need of a fix</li>
+                        <li>Anyone wanting to add a controlled dose of madness to their work</li>
+                    </ul>
                 </div>
-                <div class="route-item">
-                    <a href="https://inside-verse-api.com/conspiracies" class="api-link">
-                        <h3>/conspiracies</h3>
-                        <p>15 entries</p>
-                    </a>
-                </div>
-                <div class="route-item">
-                    <a href="https://inside-verse-api.com/technologies" class="api-link">
-                        <h3>/technologies</h3>
-                        <p>11 entries</p>
-                    </a>
-                </div>
-                <div class="route-item">
-                    <a href="https://inside-verse-api.com/episodes" class="api-link">
-                        <h3>/episodes</h3>
-                        <p>18 entries</p>
-                    </a>
+
+                <div class="inline-section">
+                    <h3>Ready to dive in?</h3>
+                    <p class="text-sm">The Inside Verse API awaits! Don't forget your invisibility cloak and your sense of humor. Remember, in the world of "Inside Job," sanity is optional, but fun is mandatory!</p>
+                    <button
+                      class="primary"
+                      data-target="modal-documentation"
+                      onClick="toggleModal(event)"
+                    >
+                      API Documentation
+                    </button>
                 </div>
             </div>
         </section>
 
-        <section id="usage">
-            <h2>Usage Examples</h2>
-            <pre class="bg-other"><code>
-GET    /quotes
-GET    /quotes/1
-GET    /quotes?_limit=20
+      <section id="documentation">
 
-GET    /characters
-GET    /characters/1
-GET    /characters?_limit=3
+        <!-- Modale contenant la documentation -->
+        <dialog id="modal-documentation">
+          <article>
+            <a
+              href="#close"
+              aria-label="Close"
+              class="close"
+              data-target="modal-documentation"
+              onClick="toggleModal(event)"
+            >
+            </a>
+            <h3>API Documentation</h3>
 
-GET    /organizations
-GET    /organizations/1
-GET    /organizations?_limit=4
+            <details open>
+              <summary>Episodes</summary>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Get all episodes</td>
+                    <td><code>/episodes</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get a specific episode by id</td>
+                    <td><code>/episodes/1</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get episodes related to a specific conspiracy</td>
+                    <td><code>/episodes?conspiracy_ids_like=14</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get episodes featuring a specific character</td>
+                    <td><code>/episodes?character_ids_like=1</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get episodes from a specific season</td>
+                    <td><code>/episodes?season=1</code></td>
+                  </tr>
+                </tbody>
+              </table>
+            </details>
 
-GET    /episodes
-GET    /episodes?season=2
-GET    /episodes?season=1&episode=2
+            <details>
+              <summary>Quotes</summary>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Get all quotes</td>
+                    <td><code>/quotes</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get a specific quote by id</td>
+                    <td><code>/quotes/1</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get quotes from a specific episode</td>
+                    <td><code>/quotes?episode_id=1</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get quotes by a specific character</td>
+                    <td><code>/quotes?character_id=1</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get a random quote</td>
+                    <td><code>/quotes/random</code></td>
+                  </tr>
+                </tbody>
+              </table>
+            </details>
 
-GET    /locations
-GET    /locations/1
-GET    /locations?_limit=5
+            <details>
+              <summary>Characters</summary>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Get all characters</td>
+                    <td><code>/characters</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get a specific character by id</td>
+                    <td><code>/characters/1</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get characters involved in a specific conspiracy</td>
+                    <td><code>/characters?conspiracy_ids_like=1</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get characters and their related quotes</td>
+                    <td><code>/characters?_embed=quotes</code></td>
+                  </tr>
+                </tbody>
+              </table>
+            </details>
 
-GET    /conspiracies
-GET    /conspiracies/1
-GET    /conspiracies?_limit=5
+            <details>
+              <summary>Organizations</summary>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Get all organizations</td>
+                    <td><code>/organizations</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get a specific organization by id</td>
+                    <td><code>/organizations/1</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get organizations related to a specific conspiracy</td>
+                    <td>
+                      <code>/organizations?related_conspiracy_ids_like=1</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </details>
 
-GET    /technologies
-GET    /technologies/1
-GET    /technologies?_limit=5
-            </code></pre>
-            <p>For more examples, check out the <a href="https://www.npmjs.com/package/json-server#routes">JSON Server documentation</a>.</p>
-        </section>
+            <details>
+              <summary>Locations</summary>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Get all locations</td>
+                    <td><code>/locations</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get a specific location by id</td>
+                    <td><code>/locations/1</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get locations featured in a specific episode</td>
+                    <td>
+                      <code>/locations?first_appearance_episode_id=1</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </details>
 
-        <section id="example">
-          <h2>JavaScript Example: Fetching Quotes</h2>
-          <div class="code-container">
-              <pre class="bg-other"><code>
-      fetch('https://inside-verse-api.com/quotes/random')
-          .then(response => response.json())
-          .catch(error => console.error('Error:', error));
-              </code></pre>
+            <details>
+              <summary>Technologies</summary>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Get all technologies</td>
+                    <td><code>/technologies</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get a specific technology by id</td>
+                    <td><code>/technologies/1</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get technologies created by a specific character</td>
+                    <td>
+                      <code>/technologies?creator_like=Reagan%20Ridley</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </details>
+
+            <details>
+              <summary>Conspiracies</summary>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Get all conspiracies</td>
+                    <td><code>/conspiracies</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get a specific conspiracy by id</td>
+                    <td><code>/conspiracies/1</code></td>
+                  </tr>
+                  <tr>
+                    <td>Get conspiracies related to a specific organization</td>
+                    <td>
+                      <code>/conspiracies?related_organization_ids_like=3</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </details>
+
+            <footer>
+              <a
+                href="#cancel"
+                role="button"
+                class="secondary"
+                data-target="modal-documentation"
+                onClick="toggleModal(event)"
+              >
+                Close
+              </a>
+            </footer>
+          </article>
+        </dialog>
+      </section>
+      <section id="routes">
+        <h2>Available Routes</h2>
+        <div class="route-list">
+          <div class="route-item">
+            <a href="https://inside-verse-api.com/quotes" class="api-link">
+              <h3>/quotes</h3>
+              <p>44 entries</p>
+            </a>
           </div>
-          <span id="cooldownTimer" class="cooldown-timer"></span>
-          <button id="fetchQuotes" class="secondary">Fetch Random Quote</button>
-          <div id="quoteLog" class="log-output">Click the "Fetch Random Quote" button</div>
+          <div class="route-item">
+            <a href="https://inside-verse-api.com/characters" class="api-link">
+              <h3>/characters</h3>
+              <p>10 entries</p>
+            </a>
+          </div>
+          <div class="route-item">
+            <a
+              href="https://inside-verse-api.com/organizations"
+              class="api-link"
+            >
+              <h3>/organizations</h3>
+              <p>7 entries</p>
+            </a>
+          </div>
+          <div class="route-item">
+            <a href="https://inside-verse-api.com/locations" class="api-link">
+              <h3>/locations</h3>
+              <p>11 entries</p>
+            </a>
+          </div>
+          <div class="route-item">
+            <a
+              href="https://inside-verse-api.com/conspiracies"
+              class="api-link"
+            >
+              <h3>/conspiracies</h3>
+              <p>15 entries</p>
+            </a>
+          </div>
+          <div class="route-item">
+            <a
+              href="https://inside-verse-api.com/technologies"
+              class="api-link"
+            >
+              <h3>/technologies</h3>
+              <p>11 entries</p>
+            </a>
+          </div>
+          <div class="route-item">
+            <a href="https://inside-verse-api.com/episodes" class="api-link">
+              <h3>/episodes</h3>
+              <p>18 entries</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        // JavaScript pour gérer l'ouverture et la fermeture de la modale
+        function toggleModal(event) {
+          event.preventDefault();
+          const modal = document.getElementById(
+            event.target.getAttribute("data-target")
+          );
+          if (typeof modal.showModal === "function") {
+            modal.showModal();
+          } else {
+            alert("The <dialog> API is not supported by this browser");
+          }
+        }
+
+        // Ajouter un gestionnaire d'événements pour fermer la modale
+        document
+          .querySelector("#modal-documentation")
+          .addEventListener("click", (event) => {
+            const modalDimensions = event.target.getBoundingClientRect();
+            if (
+              event.clientX < modalDimensions.left ||
+              event.clientX > modalDimensions.right ||
+              event.clientY < modalDimensions.top ||
+              event.clientY > modalDimensions.bottom
+            ) {
+              event.target.close();
+            }
+          });
+
+        // Fermer la modale quand on clique sur le bouton Close
+        document
+          .querySelector("#modal-documentation .close")
+          .addEventListener("click", (event) => {
+            event.preventDefault();
+            document.querySelector("#modal-documentation").close();
+          });
+
+        document
+          .querySelector("#modal-documentation footer a")
+          .addEventListener("click", (event) => {
+            event.preventDefault();
+            document.querySelector("#modal-documentation").close();
+          });
+      </script>
+
+      <section id="example">
+        <h2>JavaScript Example: Fetching Quotes</h2>
+        <div class="code-container">
+          <pre class="bg-other"><code>
+fetch('https://inside-verse-api.com/quotes/random')
+    .then(response => response.json())
+    .catch(error => console.error('Error:', error));
+              </code></pre>
+        </div>
+        <span id="cooldownTimer" class="cooldown-timer"></span>
+        <button id="fetchQuotes" class="secondary">Fetch Random Quote</button>
+        <div id="quoteLog" class="log-output">
+          Click the "Fetch Random Quote" button
+        </div>
       </section>
     </main>
 
     <footer class="site-footer">
-        <div class="container">
-            <p>&copy; 2023 Inside Verse API. All rights reserved.</p>
-            <p>All trademarks referenced herein are the properties of their respective owners.</p>
-            <p>Made with ❤️ by <a href="https://benoitpetit.dev">benoitpetit.dev</a></p>
-            <a href="https://github.com/benoitpetit/inside-verse-api" class="github-link" aria-label="GitHub Repository">
-                <img src="github.webp" alt="GitHub Logo" class="github-logo">
-            </a>
-        </div>
+      <div class="container">
+        <p>&copy; 2023 Inside Verse API. All rights reserved.</p>
+        <p>
+          All trademarks referenced herein are the properties of their
+          respective owners.
+        </p>
+        <p>
+          Made with ❤️ by <a href="https://benoitpetit.dev">benoitpetit.dev</a>
+        </p>
+        <a
+          href="https://github.com/benoitpetit/inside-verse-api"
+          class="github-link"
+          aria-label="GitHub Repository"
+        >
+          <img src="github.webp" alt="GitHub Logo" class="github-logo" />
+        </a>
+      </div>
     </footer>
     <script src="fetch-quotes.js"></script>
-</body>
+  </body>
 </html>
