@@ -71,6 +71,7 @@
           />
         </div>
       </section>
+      
       <nav>
         <ul>
           <li><a href="" data-target="modal-documentation"
@@ -143,6 +144,7 @@
               >
               </a>
               <h3>Inside Job API Documentation</h3>
+              
               <div style="display: flex; justify-content: space-between; align-items: center;">
                 <div></div>
                 <p style="font-weight: bold; margin-bottom: 1rem;">Total API entries: 121</p>
@@ -150,192 +152,71 @@
               
               <details>
                 <summary>Seasons <span style="font-size: 0.8em;">(2 entries)</span></summary>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td><code>/seasons</code></td>
-                      <td>Get all seasons</td>
-                    </tr>
-                    <tr>
-                      <td><code>/seasons/1</code></td>
-                      <td>Get a specific season by id</td>
-                    </tr>
-                    <tr>
-                      <td><code>/seasons?_embed=episodes</code></td>
-                      <td>Get seasons with their related episodes</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <p><code url="https://inside-verse-api.com/seasons">/seasons</code> Get all seasons</p>
+                <p><code url="https://inside-verse-api.com/seasons/1">/seasons/1</code> Get a specific season by id</p>
+                <p><code url="https://inside-verse-api.com/seasons?_embed=episodes">/seasons?_embed=episodes</code> Get seasons with their related episodes</p>
               </details>
-              
+            
               <details>
                 <summary>Episodes <span style="font-size: 0.8em;">(18 entries)</span></summary>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td><code>/episodes</code></td>
-                      <td>Get all episodes</td>
-                    </tr>
-                    <tr>
-                      <td><code>/episodes/1</code></td>
-                      <td>Get a specific episode by id</td>
-                    </tr>
-                    <tr>
-                      <td><code>/episodes?conspiracy_ids_like=14</code></td>
-                      <td>Get episodes related to a specific conspiracy</td>
-                    </tr>
-                    <tr>
-                      <td><code>/episodes?character_ids_like=1</code></td>
-                      <td>Get episodes featuring a specific character</td>
-                    </tr>
-                    <tr>
-                      <td><code>/episodes?season=1</code></td>
-                      <td>Get episodes from a specific season</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <p><code url="https://inside-verse-api.com/episodes">/episodes</code> Get all episodes</p>
+                <p><code url="https://inside-verse-api.com/episodes/1">/episodes/1</code> Get a specific episode by id</p>
+                <p><code url="https://inside-verse-api.com/episodes?conspiracy_ids_like=14">/episodes?conspiracy_ids_like=14</code> Get episodes related to a specific conspiracy</p>
+                <p><code url="https://inside-verse-api.com/episodes?character_ids_like=1">/episodes?character_ids_like=1</code> Get episodes featuring a specific character</p>
+                <p><code url="https://inside-verse-api.com/episodes?season=1">/episodes?season=1</code> Get episodes from a specific season</p>
               </details>
-              
+            
               <details>
                 <summary>Quotes <span style="font-size: 0.8em;">(44 entries)</span></summary>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td><code>/quotes</code></td>
-                      <td>Get all quotes</td>
-                    </tr>
-                    <tr>
-                      <td><code>/quotes/1</code></td>
-                      <td>Get a specific quote by id</td>
-                    </tr>
-                    <tr>
-                      <td><code>/quotes?episode_id=1</code></td>
-                      <td>Get quotes from a specific episode</td>
-                    </tr>
-                    <tr>
-                      <td><code>/quotes?character_id=1</code></td>
-                      <td>Get quotes by a specific character</td>
-                    </tr>
-                    <tr>
-                      <td><code>/quotes/random</code></td>
-                      <td>Get a random quote</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <p><code url="https://inside-verse-api.com/quotes">/quotes</code> Get all quotes</p>
+                <p><code url="https://inside-verse-api.com/quotes/1">/quotes/1</code> Get a specific quote by id</p>
+                <p><code url="https://inside-verse-api.com/quotes?episode_id=1">/quotes?episode_id=1</code> Get quotes from a specific episode</p>
+                <p><code url="https://inside-verse-api.com/quotes?character_id=1">/quotes?character_id=1</code> Get quotes by a specific character</p>
+                <p><code url="https://inside-verse-api.com/quotes/random">/quotes/random</code> Get a random quote</p>
               </details>
-              
+            
               <details>
                 <summary>Characters <span style="font-size: 0.8em;">(10 entries)</span></summary>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td><code>/characters</code></td>
-                      <td>Get all characters</td>
-                    </tr>
-                    <tr>
-                      <td><code>/characters/1</code></td>
-                      <td>Get a specific character by id</td>
-                    </tr>
-                    <tr>
-                      <td><code>/characters?conspiracy_ids_like=1</code></td>
-                      <td>Get characters involved in a specific conspiracy</td>
-                    </tr>
-                    <tr>
-                      <td><code>/characters?_embed=quotes</code></td>
-                      <td>Get characters and their related quotes</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <p><code url="https://inside-verse-api.com/characters">/characters</code> Get all characters</p>
+                <p><code url="https://inside-verse-api.com/characters/1">/characters/1</code> Get a specific character by id</p>
+                <p><code url="https://inside-verse-api.com/characters?conspiracy_ids_like=1">/characters?conspiracy_ids_like=1</code> Get characters involved in a specific conspiracy</p>
+                <p><code url="https://inside-verse-api.com/characters?_embed=quotes">/characters?_embed=quotes</code> Get characters and their related quotes</p>
+                <p><code url="https://inside-verse-api.com/characters/random">/characters/random</code> Get a random character</p>
+                <p><code url="https://inside-verse-api.com/characters/:id/quotes">/characters/:id/quotes</code> Get all quotes from a specific character</p>
+                <p><code url="https://inside-verse-api.com/characters/:id/episodes">/characters/:id/episodes</code> Get all episodes featuring a specific character</p>
               </details>
-              
+            
               <details>
                 <summary>Organizations <span style="font-size: 0.8em;">(7 entries)</span></summary>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td><code>/organizations</code></td>
-                      <td>Get all organizations</td>
-                    </tr>
-                    <tr>
-                      <td><code>/organizations/1</code></td>
-                      <td>Get a specific organization by id</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <code>/organizations?related_conspiracy_ids_like=1</code>
-                      </td>
-                      <td>Get organizations related to a specific conspiracy</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <p><code url="https://inside-verse-api.com/organizations">/organizations</code> Get all organizations</p>
+                <p><code url="https://inside-verse-api.com/organizations/1">/organizations/1</code> Get a specific organization by id</p>
+                <p><code url="https://inside-verse-api.com/organizations?related_conspiracy_ids_like=1">/organizations?related_conspiracy_ids_like=1</code> Get organizations related to a specific conspiracy</p>
+                <p><code url="https://inside-verse-api.com/organizations/random">/organizations/random</code> Get a random organization</p>
               </details>
-              
+            
               <details>
                 <summary>Locations <span style="font-size: 0.8em;">(12 entries)</span></summary>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td><code>/locations</code></td>
-                      <td>Get all locations</td>
-                    </tr>
-                    <tr>
-                      <td><code>/locations/1</code></td>
-                      <td>Get a specific location by id</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <code>/locations?first_appearance_episode_id=1</code>
-                      </td>
-                      <td>Get locations featured in a specific episode</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <p><code url="https://inside-verse-api.com/locations">/locations</code> Get all locations</p>
+                <p><code url="https://inside-verse-api.com/locations/1">/locations/1</code> Get a specific location by id</p>
+                <p><code url="https://inside-verse-api.com/locations?first_appearance_episode_id=1">/locations?first_appearance_episode_id=1</code> Get locations featured in a specific episode</p>
+                <p><code url="https://inside-verse-api.com/locations/:id/technologies">/locations/:id/technologies</code> Get all technologies related to a specific location</p>
               </details>
-              
+            
               <details>
                 <summary>Technologies <span style="font-size: 0.8em;">(12 entries)</span></summary>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td><code>/technologies</code></td>
-                      <td>Get all technologies</td>
-                    </tr>
-                    <tr>
-                      <td><code>/technologies/1</code></td>
-                      <td>Get a specific technology by id</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <code>/technologies?creator_like=Reagan%20Ridley</code>
-                      </td>
-                      <td>Get technologies created by a specific character</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <p><code url="https://inside-verse-api.com/technologies">/technologies</code> Get all technologies</p>
+                <p><code url="https://inside-verse-api.com/technologies/1">/technologies/1</code> Get a specific technology by id</p>
+                <p><code url="https://inside-verse-api.com/technologies?creator_like=Reagan%20Ridley">/technologies?creator_like=Reagan%20Ridley</code> Get technologies created by a specific character</p>
+                <p><code url="https://inside-verse-api.com/technologies/random">/technologies/random</code> Get a random technology</p>
               </details>
-              
+            
               <details>
                 <summary>Conspiracies <span style="font-size: 0.8em;">(16 entries)</span></summary>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td><code>/conspiracies</code></td>
-                      <td>Get all conspiracies</td>
-                    </tr>
-                    <tr>
-                      <td><code>/conspiracies/1</code></td>
-                      <td>Get a specific conspiracy by id</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <code>/conspiracies?related_organization_ids_like=3</code>
-                      </td>
-                      <td>Get conspiracies related to a specific organization</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <p><code url="https://inside-verse-api.com/conspiracies">/conspiracies</code> Get all conspiracies</p>
+                <p><code url="https://inside-verse-api.com/conspiracies/1">/conspiracies/1</code> Get a specific conspiracy by id</p>
+                <p><code url="https://inside-verse-api.com/conspiracies?related_organization_ids_like=3">/conspiracies?related_organization_ids_like=3</code> Get conspiracies related to a specific organization</p>
+                <p><code url="https://inside-verse-api.com/conspiracies/:id/characters">/conspiracies/:id/characters</code> Get all characters related to a specific conspiracy</p>
               </details>
-
             <footer>
               <a
                 href="#cancel"
@@ -351,73 +232,63 @@
         </dialog>
       </section>
 
-      <section id="chart">
-        <h2>Inside Job API</h2>
-    
-        <div id="chartContainer">
-          <canvas id="myChart"></canvas>
+      <section id="chart">    
+        <div id="chart" class="section">
+          <h2>Inside Job Stats Routes </h2>
+          <div id="chartContainer" style="height: 400px; width: 100%;"></div>
         </div>
       </section>
 
-      <section id="routes">
+      <section id="routes" class="section">
         <h2>Available Routes</h2>
-        <div class="route-list">
+        <div class="route-grid">
           <div class="route-item">
-            <a href="https://inside-verse-api.com/quotes" class="api-link">
+            <div class="route-content">
               <h3>/quotes</h3>
               <p>44 entries</p>
-            </a>
+            </div>
           </div>
           <div class="route-item">
-            <a href="https://inside-verse-api.com/characters" class="api-link">
+            <div class="route-content">
               <h3>/characters</h3>
               <p>10 entries</p>
-            </a>
+            </div>
           </div>
           <div class="route-item">
-            <a
-              href="https://inside-verse-api.com/organizations"
-              class="api-link"
-            >
+            <div class="route-content">
               <h3>/organizations</h3>
               <p>7 entries</p>
-            </a>
+            </div>
           </div>
           <div class="route-item">
-            <a href="https://inside-verse-api.com/locations" class="api-link">
+            <div class="route-content">
               <h3>/locations</h3>
               <p>12 entries</p>
-            </a>
+            </div>
           </div>
           <div class="route-item">
-            <a
-              href="https://inside-verse-api.com/conspiracies"
-              class="api-link"
-            >
+            <div class="route-content">
               <h3>/conspiracies</h3>
               <p>16 entries</p>
-            </a>
+            </div>
           </div>
           <div class="route-item">
-            <a
-              href="https://inside-verse-api.com/technologies"
-              class="api-link"
-            >
+            <div class="route-content">
               <h3>/technologies</h3>
               <p>12 entries</p>
-            </a>
+            </div>
           </div>
           <div class="route-item">
-            <a href="https://inside-verse-api.com/seasons" class="api-link">
+            <div class="route-content">
               <h3>/seasons</h3>
               <p>2 entries</p>
-            </a>
+            </div>
           </div>
           <div class="route-item">
-            <a href="https://inside-verse-api.com/episodes" class="api-link">
+            <div class="route-content">
               <h3>/episodes</h3>
               <p>18 entries</p>
-            </a>
+            </div>
           </div>
         </div>
       </section>
@@ -426,9 +297,10 @@
         <h2>JavaScript Example: Fetching Quotes</h2>
         <div class="code-container">
           <pre class="bg-other"><code>
-fetch('https://inside-verse-api.com/quotes/random')
-    .then(response => response.json())
-    .catch(error => console.error('Error:', error));
+fetch("https://inside-verse-api.com/quotes/random")
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.error(error));          
               </code></pre>
         </div>
         <span id="cooldownTimer" class="cooldown-timer"></span>

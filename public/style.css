@@ -136,7 +136,7 @@ code {
 }
 
 /* Responsive Design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1068px) {
   .content_api {
       width: 100%;
   }
@@ -258,7 +258,7 @@ button:disabled {
 article {
   min-width: 50%;
 }
-@media (max-width: 768px) {
+@media (max-width: 1068px) {
   .inline-sections {
       flex-direction: column;
   }
@@ -279,11 +279,98 @@ article {
 
 #chart {
   margin: 0;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 nav {
   display: flex;
   justify-content: center;
   padding: 0rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-light);
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--primary-light);
+}
+
+#routes {
+  padding: 2rem 0;
+}
+
+.route-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.route-item {
+  background-color: var(--primary-dark2);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.route-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.route-content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.route-content h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-light);
+}
+
+.route-content p {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+details > p > code {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} 
+
+.copied {
+  background-color: #4CAF50;
+  color: white;
+}
+
+article p, details summary {
+  font-size: 1em;
+}
+
+article p, details summary > code {
+  font-size: 0.8em;
 }

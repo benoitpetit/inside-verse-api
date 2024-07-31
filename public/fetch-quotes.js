@@ -43,11 +43,11 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("https://inside-verse-api.com/quotes/random")
       .then((response) => response.json())
       .then((data) => {
-        console.log("Quotes:", data);
+        // console.log("Quotes:", data);
         quoteLog.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
       })
       .catch((error) => {
-        console.error("Error:", error);
+        // console.error("Error:", error);
         quoteLog.innerHTML = `Error: ${error.message}`;
       })
       .finally(() => {
