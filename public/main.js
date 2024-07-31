@@ -1,3 +1,7 @@
+Weglot.initialize({
+  api_key: "wg_7e0efe2722efa7b6b06a6bcd9af0e2c44",
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const carousel = document.querySelector(".carousel");
   const images = carousel.querySelectorAll(".carousel-image");
