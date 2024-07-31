@@ -22,7 +22,6 @@
     <meta property="twitter:image:alt" content="Logo Inside Verse API" />
 
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inside Verse API - Explore the Inside Job Universe</title>
     <meta
       name="description"
@@ -33,56 +32,50 @@
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="icon" href="favicon.ico" />
   </head>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const carousel = document.querySelector(".carousel");
-      const images = carousel.querySelectorAll(".carousel-image");
-      const prevButton = carousel.querySelector(".prev");
-      let currentIndex = 0;
-
-      function showImage(index) {
-        images.forEach((img, i) => {
-          img.classList.toggle("active", i === index);
-        });
-      }
-
-      function nextImage() {
-        currentIndex = (currentIndex + 1) % images.length;
-        showImage(currentIndex);
-      }
-
-      // Auto-advance every 5 seconds
-      setInterval(nextImage, 5000);
-    });
-  </script>
   <body>
 
     <header class="site-header">
-      <div class="container">
+
+      <section class="container">
         <div class="carousel">
           <img
-            src="inside_verse_header.png"
+            src="assets/images/inside_verse_header.webp"
             alt="Inside Verse API Header 1"
-            class="carousel-image"
+            class="carousel-image active"
           />
           <img
-            src="inside_verse_header2.png"
+            src="assets/images/inside_verse_header2.webp"
             alt="Inside Verse API Header 2"
             class="carousel-image"
           />
           <img
-            src="inside_verse_header3.png"
+            src="assets/images/inside_verse_header3.webp"
             alt="Inside Verse API Header 3"
             class="carousel-image"
           />
           <img
-            src="inside_verse_header4.png"
+            src="assets/images/inside_verse_header4.webp"
             alt="Inside Verse API Header 4"
-            class="carousel-image active"
+            class="carousel-image"
+          />
+          <img
+            src="assets/images/inside_verse_header5.webp"
+            alt="Inside Verse API Header 5"
+            class="carousel-image"
           />
         </div>
-      </div>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="" data-target="modal-documentation"
+            onClick="toggleModal(event)">Docs</a></li>
+          <li><a href="https://github.com/benoitpetit/inside-verse-api" target="_blank">GitHub</a></li>
+          <li><a href="#example">Example</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main class="container">
@@ -92,8 +85,10 @@
                 <p class="text-sm"><strong>Welcome to the Inside Verse API, your one-way ticket to the bonkers world of "Inside Job"!</strong></p>
                 <p class="text-sm">Tired of boring APIs? Well, buckle up, buttercup, because we're about to inject some conspiracy-grade fun into your code! It's like having Reagan, Brett, and the whole Cognito Inc. crew in your pocket (minus the side effects of their wacky experiments)!</p>
             </div>
+                </section>
 
-            <h3>Key Features</h3>
+            <section>
+            <h2>Key Features</h2>
             <div class="feature-list">
                 <div class="feature-item">
                     <h4>Hilarious Quotes</h4>
@@ -108,7 +103,7 @@
                     <p class="text-sm">Discover pearls of wisdom worthy of the greatest conspiracy theories.</p>
                 </div>
             </div>
-
+            <br>
             <div class="inline-sections">
                 <div class="inline-section">
                     <h3>Who is this API for?</h3>
@@ -133,188 +128,210 @@
             </div>
         </section>
 
-      <section id="documentation">
-
-        <!-- Modale contenant la documentation -->
-        <dialog id="modal-documentation">
-          <article>
-            <a
-              href="#close"
-              aria-label="Close"
-              class="close"
-              data-target="modal-documentation"
-              onClick="toggleModal(event)"
-            >
-            </a>
-            <h3>API Documentation</h3>
-
-            <details open>
-              <summary>Episodes</summary>
-              <table>
-                <tbody>
-                  <tr>
-                    <td>Get all episodes</td>
-                    <td><code>/episodes</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get a specific episode by id</td>
-                    <td><code>/episodes/1</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get episodes related to a specific conspiracy</td>
-                    <td><code>/episodes?conspiracy_ids_like=14</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get episodes featuring a specific character</td>
-                    <td><code>/episodes?character_ids_like=1</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get episodes from a specific season</td>
-                    <td><code>/episodes?season=1</code></td>
-                  </tr>
-                </tbody>
-              </table>
-            </details>
-
-            <details>
-              <summary>Quotes</summary>
-              <table>
-                <tbody>
-                  <tr>
-                    <td>Get all quotes</td>
-                    <td><code>/quotes</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get a specific quote by id</td>
-                    <td><code>/quotes/1</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get quotes from a specific episode</td>
-                    <td><code>/quotes?episode_id=1</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get quotes by a specific character</td>
-                    <td><code>/quotes?character_id=1</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get a random quote</td>
-                    <td><code>/quotes/random</code></td>
-                  </tr>
-                </tbody>
-              </table>
-            </details>
-
-            <details>
-              <summary>Characters</summary>
-              <table>
-                <tbody>
-                  <tr>
-                    <td>Get all characters</td>
-                    <td><code>/characters</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get a specific character by id</td>
-                    <td><code>/characters/1</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get characters involved in a specific conspiracy</td>
-                    <td><code>/characters?conspiracy_ids_like=1</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get characters and their related quotes</td>
-                    <td><code>/characters?_embed=quotes</code></td>
-                  </tr>
-                </tbody>
-              </table>
-            </details>
-
-            <details>
-              <summary>Organizations</summary>
-              <table>
-                <tbody>
-                  <tr>
-                    <td>Get all organizations</td>
-                    <td><code>/organizations</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get a specific organization by id</td>
-                    <td><code>/organizations/1</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get organizations related to a specific conspiracy</td>
-                    <td>
-                      <code>/organizations?related_conspiracy_ids_like=1</code>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </details>
-
-            <details>
-              <summary>Locations</summary>
-              <table>
-                <tbody>
-                  <tr>
-                    <td>Get all locations</td>
-                    <td><code>/locations</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get a specific location by id</td>
-                    <td><code>/locations/1</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get locations featured in a specific episode</td>
-                    <td>
-                      <code>/locations?first_appearance_episode_id=1</code>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </details>
-
-            <details>
-              <summary>Technologies</summary>
-              <table>
-                <tbody>
-                  <tr>
-                    <td>Get all technologies</td>
-                    <td><code>/technologies</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get a specific technology by id</td>
-                    <td><code>/technologies/1</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get technologies created by a specific character</td>
-                    <td>
-                      <code>/technologies?creator_like=Reagan%20Ridley</code>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </details>
-
-            <details>
-              <summary>Conspiracies</summary>
-              <table>
-                <tbody>
-                  <tr>
-                    <td>Get all conspiracies</td>
-                    <td><code>/conspiracies</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get a specific conspiracy by id</td>
-                    <td><code>/conspiracies/1</code></td>
-                  </tr>
-                  <tr>
-                    <td>Get conspiracies related to a specific organization</td>
-                    <td>
-                      <code>/conspiracies?related_organization_ids_like=3</code>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </details>
+        <section id="documentation">
+          <dialog id="modal-documentation">
+            <article>
+              <a
+                href="#close"
+                aria-label="Close"
+                class="close"
+                data-target="modal-documentation"
+                onClick="toggleModal(event)"
+              >
+              </a>
+              <h3>Inside Job API Documentation</h3>
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div></div>
+                <p style="font-weight: bold; margin-bottom: 1rem;">Total API entries: 121</p>
+              </div>
+              
+              <details>
+                <summary>Seasons <span style="font-size: 0.8em;">(2 entries)</span></summary>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><code>/seasons</code></td>
+                      <td>Get all seasons</td>
+                    </tr>
+                    <tr>
+                      <td><code>/seasons/1</code></td>
+                      <td>Get a specific season by id</td>
+                    </tr>
+                    <tr>
+                      <td><code>/seasons?_embed=episodes</code></td>
+                      <td>Get seasons with their related episodes</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </details>
+              
+              <details>
+                <summary>Episodes <span style="font-size: 0.8em;">(18 entries)</span></summary>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><code>/episodes</code></td>
+                      <td>Get all episodes</td>
+                    </tr>
+                    <tr>
+                      <td><code>/episodes/1</code></td>
+                      <td>Get a specific episode by id</td>
+                    </tr>
+                    <tr>
+                      <td><code>/episodes?conspiracy_ids_like=14</code></td>
+                      <td>Get episodes related to a specific conspiracy</td>
+                    </tr>
+                    <tr>
+                      <td><code>/episodes?character_ids_like=1</code></td>
+                      <td>Get episodes featuring a specific character</td>
+                    </tr>
+                    <tr>
+                      <td><code>/episodes?season=1</code></td>
+                      <td>Get episodes from a specific season</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </details>
+              
+              <details>
+                <summary>Quotes <span style="font-size: 0.8em;">(44 entries)</span></summary>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><code>/quotes</code></td>
+                      <td>Get all quotes</td>
+                    </tr>
+                    <tr>
+                      <td><code>/quotes/1</code></td>
+                      <td>Get a specific quote by id</td>
+                    </tr>
+                    <tr>
+                      <td><code>/quotes?episode_id=1</code></td>
+                      <td>Get quotes from a specific episode</td>
+                    </tr>
+                    <tr>
+                      <td><code>/quotes?character_id=1</code></td>
+                      <td>Get quotes by a specific character</td>
+                    </tr>
+                    <tr>
+                      <td><code>/quotes/random</code></td>
+                      <td>Get a random quote</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </details>
+              
+              <details>
+                <summary>Characters <span style="font-size: 0.8em;">(10 entries)</span></summary>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><code>/characters</code></td>
+                      <td>Get all characters</td>
+                    </tr>
+                    <tr>
+                      <td><code>/characters/1</code></td>
+                      <td>Get a specific character by id</td>
+                    </tr>
+                    <tr>
+                      <td><code>/characters?conspiracy_ids_like=1</code></td>
+                      <td>Get characters involved in a specific conspiracy</td>
+                    </tr>
+                    <tr>
+                      <td><code>/characters?_embed=quotes</code></td>
+                      <td>Get characters and their related quotes</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </details>
+              
+              <details>
+                <summary>Organizations <span style="font-size: 0.8em;">(7 entries)</span></summary>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><code>/organizations</code></td>
+                      <td>Get all organizations</td>
+                    </tr>
+                    <tr>
+                      <td><code>/organizations/1</code></td>
+                      <td>Get a specific organization by id</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>/organizations?related_conspiracy_ids_like=1</code>
+                      </td>
+                      <td>Get organizations related to a specific conspiracy</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </details>
+              
+              <details>
+                <summary>Locations <span style="font-size: 0.8em;">(12 entries)</span></summary>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><code>/locations</code></td>
+                      <td>Get all locations</td>
+                    </tr>
+                    <tr>
+                      <td><code>/locations/1</code></td>
+                      <td>Get a specific location by id</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>/locations?first_appearance_episode_id=1</code>
+                      </td>
+                      <td>Get locations featured in a specific episode</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </details>
+              
+              <details>
+                <summary>Technologies <span style="font-size: 0.8em;">(12 entries)</span></summary>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><code>/technologies</code></td>
+                      <td>Get all technologies</td>
+                    </tr>
+                    <tr>
+                      <td><code>/technologies/1</code></td>
+                      <td>Get a specific technology by id</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>/technologies?creator_like=Reagan%20Ridley</code>
+                      </td>
+                      <td>Get technologies created by a specific character</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </details>
+              
+              <details>
+                <summary>Conspiracies <span style="font-size: 0.8em;">(16 entries)</span></summary>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><code>/conspiracies</code></td>
+                      <td>Get all conspiracies</td>
+                    </tr>
+                    <tr>
+                      <td><code>/conspiracies/1</code></td>
+                      <td>Get a specific conspiracy by id</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <code>/conspiracies?related_organization_ids_like=3</code>
+                      </td>
+                      <td>Get conspiracies related to a specific organization</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </details>
 
             <footer>
               <a
@@ -330,6 +347,15 @@
           </article>
         </dialog>
       </section>
+
+      <section id="chart">
+        <h2>Inside Job API</h2>
+    
+        <div id="chartContainer">
+          <canvas id="myChart"></canvas>
+        </div>
+      </section>
+
       <section id="routes">
         <h2>Available Routes</h2>
         <div class="route-list">
@@ -357,7 +383,7 @@
           <div class="route-item">
             <a href="https://inside-verse-api.com/locations" class="api-link">
               <h3>/locations</h3>
-              <p>11 entries</p>
+              <p>12 entries</p>
             </a>
           </div>
           <div class="route-item">
@@ -366,7 +392,7 @@
               class="api-link"
             >
               <h3>/conspiracies</h3>
-              <p>15 entries</p>
+              <p>16 entries</p>
             </a>
           </div>
           <div class="route-item">
@@ -375,7 +401,13 @@
               class="api-link"
             >
               <h3>/technologies</h3>
-              <p>11 entries</p>
+              <p>12 entries</p>
+            </a>
+          </div>
+          <div class="route-item">
+            <a href="https://inside-verse-api.com/seasons" class="api-link">
+              <h3>/seasons</h3>
+              <p>2 entries</p>
             </a>
           </div>
           <div class="route-item">
@@ -386,51 +418,6 @@
           </div>
         </div>
       </section>
-
-      <script>
-        // JavaScript pour gérer l'ouverture et la fermeture de la modale
-        function toggleModal(event) {
-          event.preventDefault();
-          const modal = document.getElementById(
-            event.target.getAttribute("data-target")
-          );
-          if (typeof modal.showModal === "function") {
-            modal.showModal();
-          } else {
-            alert("The <dialog> API is not supported by this browser");
-          }
-        }
-
-        // Ajouter un gestionnaire d'événements pour fermer la modale
-        document
-          .querySelector("#modal-documentation")
-          .addEventListener("click", (event) => {
-            const modalDimensions = event.target.getBoundingClientRect();
-            if (
-              event.clientX < modalDimensions.left ||
-              event.clientX > modalDimensions.right ||
-              event.clientY < modalDimensions.top ||
-              event.clientY > modalDimensions.bottom
-            ) {
-              event.target.close();
-            }
-          });
-
-        // Fermer la modale quand on clique sur le bouton Close
-        document
-          .querySelector("#modal-documentation .close")
-          .addEventListener("click", (event) => {
-            event.preventDefault();
-            document.querySelector("#modal-documentation").close();
-          });
-
-        document
-          .querySelector("#modal-documentation footer a")
-          .addEventListener("click", (event) => {
-            event.preventDefault();
-            document.querySelector("#modal-documentation").close();
-          });
-      </script>
 
       <section id="example">
         <h2>JavaScript Example: Fetching Quotes</h2>
@@ -469,5 +456,6 @@ fetch('https://inside-verse-api.com/quotes/random')
       </div>
     </footer>
     <script src="fetch-quotes.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
