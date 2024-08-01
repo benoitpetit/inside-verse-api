@@ -131,7 +131,7 @@ server.get("/locations/:id/technologies", (req, res) => {
 server.get("/ping", (req, res) => {
   const now = new Date();
   const response = {
-    message: "pong",
+    status: "healthy",
     timestamp: now.toISOString(),
     date: now.toLocaleDateString(),
     time: now.toLocaleTimeString(),
