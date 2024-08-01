@@ -19,26 +19,26 @@ const getRandomItem = (array) => {
   return array[Math.floor(Math.random() * array.length)];
 };
 
-server.get('/quotes/random', (req, res) => {
-  const db = router.db // Lowdb instance
-  const quotes = db.get('quotes').value()
-  const characters = db.get('characters').value()
-  const episodes = db.get('episodes').value()
+server.get("/quotes/random", (req, res) => {
+  const db = router.db; // Lowdb instance
+  const quotes = db.get("quotes").value();
+  const characters = db.get("characters").value();
+  const episodes = db.get("episodes").value();
 
   if (quotes.length > 0) {
-    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
-    const character = characters.find(c => c.id === randomQuote.character_id)
-    const episode = episodes.find(e => e.id === randomQuote.episode_id)
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    const character = characters.find((c) => c.id === randomQuote.character_id);
+    const episode = episodes.find((e) => e.id === randomQuote.episode_id);
 
     res.jsonp({
       ...randomQuote,
-      character_name: character ? character.name : 'Unknown',
-      episode_name: episode ? episode.name : 'Unknown Episode'
-    })
+      character_name: character ? character.name : "Unknown",
+      episode_name: episode ? episode.name : "Unknown Episode",
+    });
   } else {
-    res.status(404).jsonp({ error: "No quotes found" })
+    res.status(404).jsonp({ error: "No quotes found" });
   }
-})
+});
 
 // Random character
 server.get("/characters/random", (req, res) => {
@@ -126,6 +126,22 @@ server.get("/locations/:id/technologies", (req, res) => {
       .status(404)
       .jsonp({ error: "Location not found or has no related technologies" });
   }
+});
+
+server.get("/ping", (req, res) => {
+  const now = new Date();
+  const response = {
+    message: "pong",
+    timestamp: now.toISOString(),
+    date: now.toLocaleDateString(),
+    time: now.toLocaleTimeString(),
+    http: {
+      method: req.method,
+      url: req.url,
+      responseStatus: res.statusCode,
+    },
+  };
+  res.jsonp(response);
 });
 
 server.use(router);
