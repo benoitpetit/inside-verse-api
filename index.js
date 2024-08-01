@@ -132,6 +132,7 @@ server.get("/ping", (req, res) => {
   const now = new Date();
   const response = {
     status: "healthy",
+    healthcheck: "pong",
     timestamp: now.toISOString(),
     date: now.toLocaleDateString(),
     time: now.toLocaleTimeString(),
