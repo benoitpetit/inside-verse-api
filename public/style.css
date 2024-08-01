@@ -372,5 +372,5 @@ article p, details summary {
 }
 
 article p, details summary > code {
-  font-size: 0.8em;
+  font-size: 1em;
 }
