@@ -131,18 +131,20 @@ server.get("/locations/:id/technologies", (req, res) => {
 server.get("/ping", (req, res) => {
   const now = new Date();
   const response = {
-    status: "healthy",
-    healthcheck: "pong",
+    status: "OK",
+    message: "API is healthy",
     timestamp: now.toISOString(),
     date: now.toLocaleDateString(),
     time: now.toLocaleTimeString(),
     http: {
       method: req.method,
       url: req.url,
-      responseStatus: res.statusCode,
+      headers: req.headers,
+      query: req.query,
+      responseStatus: 200,
     },
   };
-  res.jsonp(response);
+  res.status(200).jsonp(response);
 });
 
 server.use(router);
