@@ -1,104 +1,72 @@
 # Inside Verse API
 
-## Base URL : [https://inside-verse-api.com](https://inside-verse-api.com)
+---
 
 ![Inside Verse API](/public/header.webp)
 
-Step into the immersive world of the "Inside Job" series with the "InsideVerseAPI." This API provides seamless access to a treasure trove of quotes, dialogues, and memorable lines from your beloved characters. Unearth the wit, wisdom, and humor that define the essence of "Inside Job." Whether you're seeking entertainment or inspiration, "InsideVerseAPI" is your gateway to the rich tapestry of storytelling within the "Inside Job" universe.
+## Access the world of "Inside Job" through our API
 
-## Available Routes
+- > API Base URL : [https://inside-verse-api.p.rapidapi.com](https://inside-verse-api.p.rapidapi.com)
+- > Website : [https://inside-verse-api.com](https://inside-verse-api.com)
+- > Documentation : [https://rapidapi.com/110benp/api/inside-verse-api](https://rapidapi.com/110benp/api/inside-verse-api)
+- > Get API Key : [Get your API Key with RapidAPi](https://rapidapi.com/110benp/api/inside-verse-api)
 
-```
-  GET    /quotes
-  GET    /quotes/1
-  GET    /quotes/random
-  GET    /quotes?_limit=20
-  GET    /quotes?character_id=1
-  GET    /quotes?episode_id=1
+## Overview
 
-  GET    /characters
-  GET    /characters/1
-  GET    /characters?_limit=3
-  GET    /characters?_embed=quotes
+The Inside Verse API opens up the vibrant universe of the "Inside Job" series, offering developers access to a rich collection of quotes and dialogues from the show's colorful characters. Whether you're building fan applications, looking for entertaining content, or seeking creative inspiration, our API provides a gateway to the unique humor and storytelling of "Inside Job".
 
-  GET    /organizations
-  GET    /organizations/1
-  GET    /organizations?_limit=4
-  GET    /organizations?related_conspiracy_ids_like=1
+## Quick Start
 
-  GET    /episodes
-  GET    /episodes/1
-  GET    /episodes?season=2
-  GET    /episodes?season=1&episode=2
-  GET    /episodes?_embed=quotes
+To get started with the Inside Verse API, you'll need to sign up for a free RapidAPI account and subscribe to the API. Once you have your API key, you can start making requests to the API endpoints.
 
-  GET    /locations
-  GET    /locations/1
-  GET    /locations?first_appearance_episode_id=1
+### JavaScript Example
 
-  GET    /conspiracies
-  GET    /conspiracies/1
-  GET    /conspiracies?related_organization_ids_like=3
+```javascript
+const url = "https://inside-verse-api.p.rapidapi.com/characters/random";
+const options = {
+  method: "GET",
+  headers: {
+    "x-rapidapi-key": "YOUR_RAPIDAPI_KEY",
+    "x-rapidapi-host": "inside-verse-api.p.rapidapi.com",
+  },
+};
 
-  GET    /technologies
-  GET    /technologies/1
-  GET    /technologies?creator_like=Reagan%20Ridley
-```
+async function fetchRandomCharacter() {
+  try {
+    const response = await fetch(url, options);
+    const result = await response.json();
+    console.log(result);
+  } catch (error) {
+    console.error("Error:", error);
+  }
+}
 
-# Advanced Usage
-
-Filtering
-
-You can filter results using query parameters:
-
-```
-GET /episodes?character_ids_like=1
-GET /episodes?location_ids_like=1
-GET /episodes?technology_ids_like=1
+fetchRandomCharacter();
 ```
 
-Sorting
+### cURL Example
 
-Sort results using the _sort and _order parameters:
-
-```
-GET /episodes?_sort=episode&_order=asc
-```
-
-Pagination
-
-Use _page and _limit for pagination:
-
-```
-GET /episodes?_page=2&_limit=10
+```shell
+curl --request GET \
+     --url https://inside-verse-api.p.rapidapi.com/characters/random \
+     --header 'x-rapidapi-host: inside-verse-api.p.rapidapi.com' \
+     --header 'x-rapidapi-key: YOUR_RAPIDAPI_KEY'
 ```
 
-Full-text Search
+## Learn More
 
-Perform a full-text search across all fields:
+For detailed documentation, endpoint descriptions, and more examples, visit our [RapidAPI page](https://rapidapi.com/110benp/api/inside-verse-api)
 
-```
-GET /episodes?q=Reptoid
-```
+## Support the Project
 
-Embedding Related Resources
+If you find this API useful, consider supporting its development:
 
-You can embed related resources using the _embed parameter:
-
-```
-GET /episodes?_embed=quotes
-GET /characters?_embed=quotes
-```
-
-For more detailed information on using these features, [https://inside-verse-api.com](https://inside-verse-api.com) OR refer to the JSON Server documentation.
-
-Help me here ❤️ : [https://patreon.com/benoitpetit](https://patreon.com/benoitpetit)
-
+[buymeacoffee.com/benoitpetit](https://buymeacoffee.com/benoitpetit)
 
 ---
 
 © 2023 Inside Verse API. All rights reserved.
 
-All trademarks referenced herein are the properties of their respective owners.
+This project is not affiliated with or endorsed by the creators of "Inside Job". All trademarks and copyrights belong to their respective owners.
 
 Made with ❤️ by benoitpetit.dev
