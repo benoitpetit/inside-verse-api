@@ -17,82 +17,32 @@ The Inside Verse API opens up the vibrant universe of the "Inside Job" series, o
 
 ## Endpoints
 
-### Characters
-- **GET** `/characters/{id}`  
-  Retrieve specific character details by ID.
+| **Category**   | **Method** | **Endpoint**                          | **Description**                                      |
+|----------------|------------|---------------------------------------|------------------------------------------------------|
+| **Characters** | GET        | `/characters/{id}`                    | Retrieve specific character details by ID.           |
+|                | GET        | `/characters/{id}/episodes`           | Get episodes featuring a specific character by ID.   |
+|                | GET        | `/characters/random`                  | Fetch a random character.                            |
+|                | GET        | `/characters/{id}/quotes`             | Obtain quotes by a specific character ID.            |
+|                | GET        | `/characters`                         | List all characters.                                 |
+| **Organizations** | GET    | `/organizations/random`               | Get a random organization.                           |
+|                | GET        | `/organizations/{id}`                 | Retrieve specific organization details by ID.        |
+|                | GET        | `/organizations`                      | List all organizations.                              |
+| **Locations**  | GET        | `/locations/{id}/technologies`        | Get technologies available at a specific location by ID. |
+|                | GET        | `/locations`                          | List all locations.                                  |
+|                | GET        | `/locations/{id}`                     | Retrieve specific location details by ID.            |
+| **Conspiracies** | GET      | `/conspiracies/{id}/characters`       | List characters involved in a specific conspiracy by ID. |
+|                | GET        | `/conspiracies/{id}`                  | Retrieve specific conspiracy details by ID.          |
+|                | GET        | `/conspiracies`                       | List all conspiracies.                               |
+| **Technologies** | GET      | `/technologies/{id}`                  | Retrieve specific technology details by ID.          |
+|                | GET        | `/technologies`                       | List all technologies.                               |
+|                | GET        | `/technologies/random`                | Fetch a random technology.                           |
+| **Episodes**   | GET        | `/episodes/{id}`                      | Retrieve specific episode details by ID.             |
+|                | GET        | `/episodes`                           | List all episodes.                                   |
+| **Quotes**     | GET        | `/quotes/{id}`                        | Retrieve specific quote details by ID.               |
+|                | GET        | `/quotes`                             | List all quotes.                                     |
+|                | GET        | `/quotes/random`                      | Fetch a random quote.                                |
+| **Ping**       | GET        | `/ping`                               | Check the API's availability and response.           |
 
-- **GET** `/characters/{id}/episodes`  
-  Get episodes featuring a specific character by ID.
-
-- **GET** `/characters/random`  
-  Fetch a random character.
-
-- **GET** `/characters/{id}/quotes`  
-  Obtain quotes by a specific character ID.
-
-- **GET** `/characters`  
-  List all characters.
-
-### Organizations
-- **GET** `/organizations/random`  
-  Get a random organization.
-
-- **GET** `/organizations/{id}`  
-  Retrieve specific organization details by ID.
-
-- **GET** `/organizations`  
-  List all organizations.
-
-### Locations
-- **GET** `/locations/{id}/technologies`  
-  Get technologies available at a specific location by ID.
-
-- **GET** `/locations`  
-  List all locations.
-
-- **GET** `/locations/{id}`  
-  Retrieve specific location details by ID.
-
-### Conspiracies
-- **GET** `/conspiracies/{id}/characters`  
-  List characters involved in a specific conspiracy by ID.
-
-- **GET** `/conspiracies/{id}`  
-  Retrieve specific conspiracy details by ID.
-
-- **GET** `/conspiracies`  
-  List all conspiracies.
-
-### Technologies
-- **GET** `/technologies/{id}`  
-  Retrieve specific technology details by ID.
-
-- **GET** `/technologies`  
-  List all technologies.
-
-- **GET** `/technologies/random`  
-  Fetch a random technology.
-
-### Episodes
-- **GET** `/episodes/{id}`  
-  Retrieve specific episode details by ID.
-
-- **GET** `/episodes`  
-  List all episodes.
-
-### Quotes
-- **GET** `/quotes/{id}`  
-  Retrieve specific quote details by ID.
-
-- **GET** `/quotes`  
-  List all quotes.
-
-- **GET** `/quotes/random`  
-  Fetch a random quote.
-
-### Ping
-- **GET** `/ping`  
-  Check the API's availability and response.
 
 ## Quick Start
 
